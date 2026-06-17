@@ -1,7 +1,7 @@
-import 'package:denwee/core/permissions/domain/repo/app_permission.dart';
-import 'package:denwee/core/permissions/domain/utils/permission_mapper.dart';
+import 'package:nasmotives/core/permissions/domain/repo/app_permission.dart';
+import 'package:nasmotives/core/permissions/domain/utils/permission_mapper.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:denwee/core/permissions/domain/entity/app_permission_status.dart' as pm_status;
+import 'package:nasmotives/core/permissions/domain/entity/app_permission_status.dart' as pm_status;
 
 class AppNotificationsPermission implements AppPermission {
   const AppNotificationsPermission();

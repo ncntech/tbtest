@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/widget/shared/animations/tap_animations/widget_hover_animation_provider.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/tap_animations/widget_hover_animation_provider.dart';
 import 'package:flutter/material.dart';
 
 class TapFadeAnimation extends StatelessWidget {

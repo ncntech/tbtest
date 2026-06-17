@@ -1,7 +1,7 @@
-import 'package:denwee/core/network/domain/entity/common_api_failure.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
-import 'package:denwee/presentation/bloc/onboarding/onboarding_configuration_cubit.dart';
+import 'package:nasmotives/core/network/domain/entity/common_api_failure.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/presentation/bloc/onboarding/onboarding_configuration_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

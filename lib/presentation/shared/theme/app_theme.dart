@@ -1,11 +1,12 @@
-import 'package:denwee/core/misc/domain/entity/theme_coloration.dart';
-import 'package:denwee/presentation/shared/theme/app_colors.dart';
+import 'package:nasmotives/core/misc/domain/entity/theme_coloration.dart';
+import 'package:nasmotives/presentation/shared/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 
 part 'dark_theme.dart';
 part 'light_theme.dart';
+part 'amoled_theme.dart';
 
-enum ThemeType { light, dark }
+enum ThemeType { light, dark, amoled, glassBlue }
 
 class AppTheme {
   final ThemeType type;
@@ -18,6 +19,10 @@ class AppTheme {
     switch (type) {
       case ThemeType.dark:
         return darkTheme(coloration);
+      case ThemeType.amoled:
+        return amoledTheme(coloration);
+      case ThemeType.glassBlue:
+        return glassBluTheme(coloration);
       default:
         return lightTheme(coloration);
     }

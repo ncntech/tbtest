@@ -1,6 +1,6 @@
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/bloc/facts/fact_share_cubit.dart';
-import 'package:denwee/presentation/bloc/subscriptions/user_subscription_cubit.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/bloc/facts/fact_share_cubit.dart';
+import 'package:nasmotives/presentation/bloc/subscriptions/user_subscription_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

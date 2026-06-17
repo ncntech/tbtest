@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:denwee/core/network/domain/repo/connectivity_repo.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/core/network/domain/repo/connectivity_repo.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/foundation.dart';

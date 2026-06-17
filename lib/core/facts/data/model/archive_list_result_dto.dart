@@ -1,5 +1,5 @@
-import 'package:denwee/core/facts/data/model/archived_fact_dto.dart';
-import 'package:denwee/core/facts/domain/entity/archive_list_result.dart';
+import 'package:nasmotives/core/facts/data/model/archived_fact_dto.dart';
+import 'package:nasmotives/core/facts/domain/entity/archive_list_result.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'archive_list_result_dto.g.dart';

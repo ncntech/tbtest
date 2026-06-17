@@ -1,7 +1,7 @@
-import 'package:denwee/core/network/data/model/server_response.dart';
-import 'package:denwee/core/user_preferences/data/model/user_preferences_dto.dart';
-import 'package:denwee/core/user_preferences/data/source/remote/user_preferences_api.dart';
-import 'package:denwee/core/user_preferences/domain/source/user_preferences_remote_source.dart';
+import 'package:nasmotives/core/network/data/model/server_response.dart';
+import 'package:nasmotives/core/user_preferences/data/model/user_preferences_dto.dart';
+import 'package:nasmotives/core/user_preferences/data/source/remote/user_preferences_api.dart';
+import 'package:nasmotives/core/user_preferences/domain/source/user_preferences_remote_source.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: UserPreferencesRemoteSource)

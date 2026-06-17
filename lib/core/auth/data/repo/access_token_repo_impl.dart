@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:denwee/core/auth/domain/repo/access_token_repo.dart';
-import 'package:denwee/core/misc/data/storage/local_secure_storage.dart';
-import 'package:denwee/di/server_module.dart';
+import 'package:nasmotives/core/auth/domain/repo/access_token_repo.dart';
+import 'package:nasmotives/core/misc/data/storage/local_secure_storage.dart';
+import 'package:nasmotives/di/server_module.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: AccessTokenRepo)

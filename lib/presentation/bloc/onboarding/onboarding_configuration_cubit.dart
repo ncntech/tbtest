@@ -1,8 +1,8 @@
-import 'package:denwee/core/auth/domain/use_case/login_anonymously_use_case.dart';
-import 'package:denwee/core/network/domain/entity/common_api_failure.dart';
-import 'package:denwee/core/user_preferences/domain/entity/user_preferences.dart';
+import 'package:nasmotives/core/auth/domain/use_case/login_anonymously_use_case.dart';
+import 'package:nasmotives/core/network/domain/entity/common_api_failure.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/user_preferences.dart';
 import 'package:dartz/dartz.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/onboarding_configuration_step.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/onboarding_configuration_step.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

@@ -10,7 +10,7 @@ library;
 
 import 'dart:async';
 
-import 'package:denwee/presentation/widget/facts/stories_components/src/controller/story_controller.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/controller/story_controller.dart';
 import 'package:collection/collection.dart' show IterableExtension;
 import 'package:flutter/material.dart';
 

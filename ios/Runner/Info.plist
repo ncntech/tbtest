@@ -24,7 +24,7 @@
 			<string>zh</string>
 		</array>
 		<key>CFBundleName</key>
-		<string>Denwee</string>
+		<string>NasMotives</string>
 		<key>CFBundlePackageType</key>
 		<string>APPL</string>
 		<key>CFBundleShortVersionString</key>
@@ -37,20 +37,20 @@
 				<key>CFBundleTypeRole</key>
 				<string>Editor</string>
 				<key>CFBundleURLName</key>
-				<string>/factlyapp/resetPassword</string>
+				<string>/app/resetPassword</string>
 				<key>CFBundleURLSchemes</key>
 				<array>
-					<string>denwee</string>
+					<string>nasmotives</string>
 				</array>
 			</dict>
 			<dict>
 				<key>CFBundleTypeRole</key>
 				<string>Editor</string>
 				<key>CFBundleURLName</key>
-				<string>/factlyapp/factDetails</string>
+				<string>/app/factDetails</string>
 				<key>CFBundleURLSchemes</key>
 				<array>
-					<string>denwee</string>
+					<string>nasmotives</string>
 				</array>
 			</dict>
 		</array>
@@ -94,9 +94,9 @@
 			<!-- <string>linkedin</string> -->
 		</array>
 		<key>NSPhotoLibraryUsageDescription</key>
-		<string>Denwee needs access to your photo library to save and share your facts and visuals.</string>
+		<string>NasMotives needs access to your photo library to save and share your facts and visuals.</string>
 		<key>NSPhotoLibraryAddUsageDescription</key>
-		<string>Denwee needs permission to save photos and videos to your library.</string>
+		<string>NasMotives needs permission to save photos and videos to your library.</string>
 		<key>NSCameraUsageDescription</key>
 		<string>Camera access may be used for optional features such as facts media sharing.</string>
 		<key>SKAdNetworkItems</key>

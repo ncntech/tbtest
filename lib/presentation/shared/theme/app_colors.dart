@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 
@@ -11,6 +11,8 @@ class AppColors {
   static const Map<ThemeType, Color> primaryBackground = {
     ThemeType.light: Color(0xFFF6F5FA),
     ThemeType.dark: Color(0xFF13131E),
+    ThemeType.amoled: Color(0xFF000000),
+    ThemeType.glassBlue: Color(0xFF0A0F1E),
   };
 
 
@@ -20,14 +22,20 @@ class AppColors {
   static const Map<ThemeType, Color> text = {
     ThemeType.light: Colors.black,
     ThemeType.dark: Colors.white,
+    ThemeType.amoled: Colors.white,
+    ThemeType.glassBlue: Colors.white,
   };
   static const Map<ThemeType, Color> textSecondary = {
     ThemeType.light: Color(0x99000000),
     ThemeType.dark: Color(0x99FFFFFF),
+    ThemeType.amoled: Color(0x99FFFFFF),
+    ThemeType.glassBlue: Color(0x99FFFFFF),
   };
   static const Map<ThemeType, Color> textTernary = {
     ThemeType.light: Color(0x66000000),
     ThemeType.dark: Color(0x66FFFFFF),
+    ThemeType.amoled: Color(0x66FFFFFF),
+    ThemeType.glassBlue: Color(0x66FFFFFF),
   };
 
 
@@ -37,14 +45,20 @@ class AppColors {
   static const Map<ThemeType, Color> icon = {
     ThemeType.light: Colors.black,
     ThemeType.dark: Colors.white,
+    ThemeType.amoled: Colors.white,
+    ThemeType.glassBlue: Colors.white,
   };
   static const Map<ThemeType, Color> iconSecondary = {
     ThemeType.light: Color(0x99000000),
     ThemeType.dark: Color(0x99FFFFFF),
+    ThemeType.amoled: Color(0x99FFFFFF),
+    ThemeType.glassBlue: Color(0x99FFFFFF),
   };
   static const Map<ThemeType, Color> iconTernary = {
     ThemeType.light: Color(0x66000000),
     ThemeType.dark: Color(0x66FFFFFF),
+    ThemeType.amoled: Color(0x66FFFFFF),
+    ThemeType.glassBlue: Color(0x66FFFFFF),
   };
 
 
@@ -54,10 +68,14 @@ class AppColors {
   static const Map<ThemeType, Color> primaryContainer = {
     ThemeType.light: Color(0xFFF3F4F9),
     ThemeType.dark: Color(0xFF1C1D31),
+    ThemeType.amoled: Color(0xFF111111),
+    ThemeType.glassBlue: Color(0xFF0D1829),
   };
   static const Map<ThemeType, Color> secondaryContainer = {
     ThemeType.light: Color(0xFFE9E9E9),
     ThemeType.dark: Color(0xFF1A2130),
+    ThemeType.amoled: Color(0xFF0D0D0D),
+    ThemeType.glassBlue: Color(0xFF0A1520),
   };
 
 
@@ -67,14 +85,20 @@ class AppColors {
   static const Map<ThemeType, Color> surfaceContainerSecondary = {
     ThemeType.light: Color(0x14000000),
     ThemeType.dark: Color(0x14FFFFFF),
+    ThemeType.amoled: Color(0x14FFFFFF),
+    ThemeType.glassBlue: Color(0x14FFFFFF),
   };
   static const Map<ThemeType, Color> surfaceContainerTernary = {
     ThemeType.light: Color(0x0A000000),
     ThemeType.dark: Color(0x0AFFFFFF),
+    ThemeType.amoled: Color(0x0AFFFFFF),
+    ThemeType.glassBlue: Color(0x0AFFFFFF),
   };
   static const Map<ThemeType, Color> surfaceBorder = {
     ThemeType.light: Colors.white10,
     ThemeType.dark: Colors.white10,
+    ThemeType.amoled: Colors.white10,
+    ThemeType.glassBlue: Colors.white10,
   };
 
   // ---------------------------
@@ -83,10 +107,14 @@ class AppColors {
   static const Map<ThemeType, Color> divider = {
     ThemeType.light: Color(0x10000000),
     ThemeType.dark: Color(0xFF1C232A),
+    ThemeType.amoled: Color(0xFF1A1A1A),
+    ThemeType.glassBlue: Color(0xFF1E2A40),
   };
   static const Map<ThemeType, Color> shadow = {
     ThemeType.light: Color(0x42000000),
     ThemeType.dark: Color(0x42000000),
+    ThemeType.amoled: Color(0xFF000000),
+    ThemeType.glassBlue: Color(0x4200BFFF),
   };
   static const lightGreen = Color(0xFF5CB75F);
   static const lightRed = Color(0xFFEB5A5A);

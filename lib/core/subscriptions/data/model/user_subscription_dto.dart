@@ -1,5 +1,5 @@
-import 'package:denwee/core/subscriptions/domain/entity/premium_packages.dart';
-import 'package:denwee/core/subscriptions/domain/entity/user_subscription.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_packages.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/user_subscription.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'user_subscription_dto.g.dart';

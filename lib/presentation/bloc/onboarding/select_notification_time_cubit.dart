@@ -1,6 +1,6 @@
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:denwee/core/user_preferences/domain/entity/notifications_preferences.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/notifications_preferences.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 

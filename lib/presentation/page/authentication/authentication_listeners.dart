@@ -1,11 +1,11 @@
-import 'package:denwee/core/auth/domain/entity/change_password_failure.dart';
-import 'package:denwee/core/auth/domain/entity/login_failure.dart';
-import 'package:denwee/core/auth/domain/entity/register_failure.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
-import 'package:denwee/core/auth/domain/entity/authentication_action_result.dart';
-import 'package:denwee/presentation/bloc/auth/login_cubit.dart';
-import 'package:denwee/presentation/bloc/auth/register_cubit.dart';
+import 'package:nasmotives/core/auth/domain/entity/change_password_failure.dart';
+import 'package:nasmotives/core/auth/domain/entity/login_failure.dart';
+import 'package:nasmotives/core/auth/domain/entity/register_failure.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/core/auth/domain/entity/authentication_action_result.dart';
+import 'package:nasmotives/presentation/bloc/auth/login_cubit.dart';
+import 'package:nasmotives/presentation/bloc/auth/register_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

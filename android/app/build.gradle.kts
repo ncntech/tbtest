@@ -16,7 +16,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "app.denwee.factlyapp"
+    namespace = "com.nasmotives.app"
     compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
@@ -32,7 +32,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "app.denwee.factlyapp"
+        applicationId = "com.nasmotives.app"
         minSdk = 24
         targetSdk = 35
         versionCode = flutter.versionCode

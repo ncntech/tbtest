@@ -1,7 +1,7 @@
-import 'package:denwee/core/permissions/data/repo/app_notifications_permission_impl.dart';
-import 'package:denwee/core/permissions/data/repo/app_photos_add_permission_impl.dart';
-import 'package:denwee/core/permissions/data/repo/app_photos_full_permission_impl.dart';
-import 'package:denwee/core/permissions/domain/entity/app_permission_status.dart'
+import 'package:nasmotives/core/permissions/data/repo/app_notifications_permission_impl.dart';
+import 'package:nasmotives/core/permissions/data/repo/app_photos_add_permission_impl.dart';
+import 'package:nasmotives/core/permissions/data/repo/app_photos_full_permission_impl.dart';
+import 'package:nasmotives/core/permissions/domain/entity/app_permission_status.dart'
     as pm_status;
 
 enum AppPermissionType { notifications, photosAdd, photosFull }

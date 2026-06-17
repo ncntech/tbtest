@@ -1,6 +1,6 @@
-import 'package:denwee/core/profile/data/model/profile_dto.dart';
-import 'package:denwee/core/auth/domain/entity/register_result.dart';
-import 'package:denwee/core/user_preferences/data/model/user_preferences_dto.dart';
+import 'package:nasmotives/core/profile/data/model/profile_dto.dart';
+import 'package:nasmotives/core/auth/domain/entity/register_result.dart';
+import 'package:nasmotives/core/user_preferences/data/model/user_preferences_dto.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'register_response_dto.g.dart';

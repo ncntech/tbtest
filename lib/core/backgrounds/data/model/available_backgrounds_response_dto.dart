@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/backgrounds/data/model/active_background_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/available_background_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/background_category_dto.dart';
-import 'package:denwee/core/backgrounds/domain/entity/active_background.dart';
-import 'package:denwee/core/backgrounds/domain/entity/available_background.dart';
+import 'package:nasmotives/core/backgrounds/data/model/active_background_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/available_background_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/background_category_dto.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/active_background.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/available_background.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 

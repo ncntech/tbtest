@@ -1,5 +1,5 @@
-import 'package:denwee/core/misc/data/storage/local_storage.dart';
-import 'package:denwee/di/server_module.dart';
+import 'package:nasmotives/core/misc/data/storage/local_storage.dart';
+import 'package:nasmotives/di/server_module.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton()

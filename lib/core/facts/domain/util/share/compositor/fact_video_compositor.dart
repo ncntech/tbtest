@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
-import 'package:denwee/core/facts/domain/util/share/compositor/fact_compositor.dart';
-import 'package:denwee/core/facts/domain/util/share/fact_shares_storage.dart';
-import 'package:denwee/core/misc/domain/service/ffmpeg_service.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/core/facts/domain/util/share/compositor/fact_compositor.dart';
+import 'package:nasmotives/core/facts/domain/util/share/fact_shares_storage.dart';
+import 'package:nasmotives/core/misc/domain/service/ffmpeg_service.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 
 class FactVideoCompositor implements FactCompositor {

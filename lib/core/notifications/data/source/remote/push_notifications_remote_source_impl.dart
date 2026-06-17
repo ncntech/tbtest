@@ -1,7 +1,7 @@
-import 'package:denwee/core/network/data/model/server_response.dart';
-import 'package:denwee/core/notifications/data/model/push_notifications_subscribe_body_dto.dart';
-import 'package:denwee/core/notifications/data/source/remote/push_notifications_api.dart';
-import 'package:denwee/core/notifications/domain/source/push_notifications_remote_source.dart';
+import 'package:nasmotives/core/network/data/model/server_response.dart';
+import 'package:nasmotives/core/notifications/data/model/push_notifications_subscribe_body_dto.dart';
+import 'package:nasmotives/core/notifications/data/source/remote/push_notifications_api.dart';
+import 'package:nasmotives/core/notifications/domain/source/push_notifications_remote_source.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: PushNotificationsRemoteSource)

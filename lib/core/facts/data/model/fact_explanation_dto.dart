@@ -1,6 +1,6 @@
-import 'package:denwee/core/facts/domain/entity/fact_explanation.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/db/database.dart' as db;
+import 'package:nasmotives/core/facts/domain/entity/fact_explanation.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/db/database.dart' as db;
 import 'package:drift/drift.dart' hide JsonKey;
 import 'package:freezed_annotation/freezed_annotation.dart';
 

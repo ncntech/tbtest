@@ -1,5 +1,5 @@
-import 'package:denwee/core/backgrounds/domain/entity/active_background.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/active_background.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'apply_background_result.freezed.dart';

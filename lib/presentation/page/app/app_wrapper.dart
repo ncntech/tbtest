@@ -2,30 +2,30 @@
 
 import 'dart:ui';
 
-import 'package:denwee/core/facts/domain/util/share/fact_shares_storage.dart';
-import 'package:denwee/core/misc/data/storage/common_storage.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
-import 'package:denwee/presentation/bloc/permissions/permissions_cubit.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/router/root_router.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/page/authentication/args/authentication_page_args.dart';
-import 'package:denwee/presentation/page/authentication/authentication_routes.dart';
+import 'package:nasmotives/core/facts/domain/util/share/fact_shares_storage.dart';
+import 'package:nasmotives/core/misc/data/storage/common_storage.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/presentation/bloc/permissions/permissions_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/router/root_router.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/page/authentication/args/authentication_page_args.dart';
+import 'package:nasmotives/presentation/page/authentication/authentication_routes.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:utils/utils.dart';
 
-class DenweeAppWrapper extends StatefulWidget {
-  const DenweeAppWrapper({super.key, required this.child});
+class NasMotivesAppWrapper extends StatefulWidget {
+  const NasMotivesAppWrapper({super.key, required this.child});
 
   final Widget child;
 
   @override
-  State<DenweeAppWrapper> createState() => _DenweeAppWrapperState();
+  State<NasMotivesAppWrapper> createState() => _NasMotivesAppWrapperState();
 }
 
-class _DenweeAppWrapperState extends State<DenweeAppWrapper> {
+class _NasMotivesAppWrapperState extends State<NasMotivesAppWrapper> {
   static const requestNotificationsPermissionDelay =
       Duration(milliseconds: 2000);
   static const promptAuthenticationDelay =

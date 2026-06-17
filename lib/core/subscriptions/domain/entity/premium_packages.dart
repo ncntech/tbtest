@@ -1,5 +1,5 @@
-import 'package:denwee/core/subscriptions/domain/repo/subscriptions_repo.dart';
-import 'package:denwee/di/di.dart';
+import 'package:nasmotives/core/subscriptions/domain/repo/subscriptions_repo.dart';
+import 'package:nasmotives/di/di.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';

@@ -1,9 +1,9 @@
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/core/profile/domain/entity/profile.dart';
-import 'package:denwee/core/profile/domain/entity/profile_failure.dart';
-import 'package:denwee/core/profile/domain/repo/profile_repo.dart';
-import 'package:denwee/core/profile/domain/use_case/get_profile_use_case.dart';
-import 'package:denwee/presentation/shared/localization/locale_keys.g.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/profile/domain/entity/profile.dart';
+import 'package:nasmotives/core/profile/domain/entity/profile_failure.dart';
+import 'package:nasmotives/core/profile/domain/repo/profile_repo.dart';
+import 'package:nasmotives/core/profile/domain/use_case/get_profile_use_case.dart';
+import 'package:nasmotives/presentation/shared/localization/locale_keys.g.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

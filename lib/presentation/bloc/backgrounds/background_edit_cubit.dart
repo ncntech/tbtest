@@ -1,7 +1,7 @@
-import 'package:denwee/presentation/widget/backgrounds/background_edit_mode_selector_widget.dart';
+import 'package:nasmotives/presentation/widget/backgrounds/background_edit_mode_selector_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:denwee/core/backgrounds/domain/entity/background_style.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_style.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 

@@ -1,4 +1,4 @@
-import 'package:denwee/core/network/data/model/server_response.dart';
+import 'package:nasmotives/core/network/data/model/server_response.dart';
 import 'package:dio/dio.dart';
 
 abstract class RequestExecutor {

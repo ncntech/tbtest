@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
 import 'package:flutter/material.dart';
 
 /// Wrap your page with [RouteAwareAnimated] & provide RouteObserver and you can animate your widgets while page is being pushed/popped

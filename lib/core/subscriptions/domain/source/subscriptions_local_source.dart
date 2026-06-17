@@ -1,4 +1,4 @@
-import 'package:denwee/core/subscriptions/data/model/user_subscription_dto.dart';
+import 'package:nasmotives/core/subscriptions/data/model/user_subscription_dto.dart';
 
 abstract class SubscriptionsLocalSource {
   ///

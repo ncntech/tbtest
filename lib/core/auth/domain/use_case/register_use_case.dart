@@ -1,19 +1,19 @@
 import 'dart:async';
 
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/auth/domain/entity/email.dart';
-import 'package:denwee/core/auth/domain/entity/password.dart';
-import 'package:denwee/core/auth/domain/entity/register_result.dart';
-import 'package:denwee/core/auth/domain/entity/register_failure.dart';
-import 'package:denwee/core/auth/domain/repo/auth_repo.dart';
-import 'package:denwee/core/misc/data/storage/common_storage.dart';
-import 'package:denwee/core/notifications/domain/repo/push_notifications_repo.dart';
-import 'package:denwee/core/analytics/domain/repo/analytics_repo.dart';
-import 'package:denwee/core/subscriptions/domain/repo/subscriptions_repo.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
-import 'package:denwee/presentation/bloc/profile/profile_cubit.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/core/user_preferences/domain/entity/user_preferences.dart';
+import 'package:nasmotives/core/auth/domain/entity/email.dart';
+import 'package:nasmotives/core/auth/domain/entity/password.dart';
+import 'package:nasmotives/core/auth/domain/entity/register_result.dart';
+import 'package:nasmotives/core/auth/domain/entity/register_failure.dart';
+import 'package:nasmotives/core/auth/domain/repo/auth_repo.dart';
+import 'package:nasmotives/core/misc/data/storage/common_storage.dart';
+import 'package:nasmotives/core/notifications/domain/repo/push_notifications_repo.dart';
+import 'package:nasmotives/core/analytics/domain/repo/analytics_repo.dart';
+import 'package:nasmotives/core/subscriptions/domain/repo/subscriptions_repo.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/presentation/bloc/profile/profile_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/user_preferences.dart';
 import 'package:injectable/injectable.dart';
 import 'package:utils/utils.dart';
 

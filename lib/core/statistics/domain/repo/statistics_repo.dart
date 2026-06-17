@@ -1,6 +1,6 @@
-import 'package:denwee/core/statistics/domain/entity/user_statistics.dart';
+import 'package:nasmotives/core/statistics/domain/entity/user_statistics.dart';
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/statistics/domain/entity/statistics_failure.dart';
+import 'package:nasmotives/core/statistics/domain/entity/statistics_failure.dart';
 
 abstract class StatisticsRepo {
   // Local

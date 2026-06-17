@@ -1,7 +1,7 @@
-import 'package:denwee/core/facts/domain/entity/facts_failure.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
-import 'package:denwee/presentation/bloc/facts/fact_explanation_cubit.dart';
+import 'package:nasmotives/core/facts/domain/entity/facts_failure.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/presentation/bloc/facts/fact_explanation_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

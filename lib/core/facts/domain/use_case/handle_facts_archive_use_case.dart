@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/facts/domain/entity/facts_failure.dart';
-import 'package:denwee/core/facts/domain/repo/facts_archive_repo.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/facts/domain/entity/facts_failure.dart';
+import 'package:nasmotives/core/facts/domain/repo/facts_archive_repo.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:injectable/injectable.dart';
 import 'package:utils/utils.dart';
 

@@ -1,4 +1,4 @@
-import 'package:denwee/core/auth/domain/entity/password.dart';
+import 'package:nasmotives/core/auth/domain/entity/password.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'change_password_body.freezed.dart';

@@ -1,15 +1,15 @@
 import 'dart:async';
 
-import 'package:denwee/core/auth/domain/entity/email.dart';
-import 'package:denwee/core/auth/domain/entity/username.dart';
-import 'package:denwee/core/auth/domain/repo/auth_repo.dart';
-import 'package:denwee/core/network/domain/entity/common_api_failure.dart';
-import 'package:denwee/core/profile/domain/entity/profile.dart';
-import 'package:denwee/core/profile/domain/entity/update_profile_body.dart';
-import 'package:denwee/core/profile/domain/entity/profile_failure.dart';
-import 'package:denwee/core/profile/domain/repo/profile_repo.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
-import 'package:denwee/presentation/bloc/profile/profile_cubit.dart';
+import 'package:nasmotives/core/auth/domain/entity/email.dart';
+import 'package:nasmotives/core/auth/domain/entity/username.dart';
+import 'package:nasmotives/core/auth/domain/repo/auth_repo.dart';
+import 'package:nasmotives/core/network/domain/entity/common_api_failure.dart';
+import 'package:nasmotives/core/profile/domain/entity/profile.dart';
+import 'package:nasmotives/core/profile/domain/entity/update_profile_body.dart';
+import 'package:nasmotives/core/profile/domain/entity/profile_failure.dart';
+import 'package:nasmotives/core/profile/domain/repo/profile_repo.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/presentation/bloc/profile/profile_cubit.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

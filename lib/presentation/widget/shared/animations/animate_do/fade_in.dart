@@ -1,7 +1,7 @@
-import 'package:denwee/presentation/shared/utils/animations_util.dart';
-import 'package:denwee/presentation/widget/shared/animations/animate_do/core/core_animation_mixin.dart';
-import 'package:denwee/presentation/widget/shared/animations/animate_do/core/core_fade.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/shared/utils/animations_util.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animate_do/core/core_animation_mixin.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animate_do/core/core_fade.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
 import 'package:flutter/material.dart';
 
 extension FadeInExtension on Widget {

@@ -1,5 +1,5 @@
-import 'package:denwee/core/backgrounds/domain/entity/background_category.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_category.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 

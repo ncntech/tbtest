@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:denwee/core/misc/domain/entity/device_info.dart';
-import 'package:denwee/core/misc/domain/repo/device_info_repo.dart';
+import 'package:nasmotives/core/misc/domain/entity/device_info.dart';
+import 'package:nasmotives/core/misc/domain/repo/device_info_repo.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:injectable/injectable.dart';
 import 'package:package_info_plus/package_info_plus.dart';

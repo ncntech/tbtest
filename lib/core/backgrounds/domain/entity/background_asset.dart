@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/backgrounds/domain/entity/available_background.dart';
-import 'package:denwee/core/network/domain/entity/network_link.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/available_background.dart';
+import 'package:nasmotives/core/network/domain/entity/network_link.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'background_asset.freezed.dart';

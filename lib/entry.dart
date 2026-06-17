@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'dart:developer';
-import 'package:denwee/core/user_preferences/domain/repo/user_preferences_repo.dart';
-import 'package:denwee/presentation/shared/localization/codegen_loader.g.dart';
-import 'package:denwee/presentation/page/app/app.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/core/misc/domain/service/debug_print_service.dart';
+import 'package:nasmotives/core/user_preferences/domain/repo/user_preferences_repo.dart';
+import 'package:nasmotives/presentation/shared/localization/codegen_loader.g.dart';
+import 'package:nasmotives/presentation/page/app/app.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/core/misc/domain/service/debug_print_service.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
@@ -71,7 +71,7 @@ void run(String env) {
           fallbackLocale: AppConstants.config.fallbackLocale,
           path: AppConstants.config.localesPath,
           assetLoader: const CodegenLoader(),
-          child: const DenweeApp(),
+          child: const NasMotivesApp(),
         ),
       ),
     );

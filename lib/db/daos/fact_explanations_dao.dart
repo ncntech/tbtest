@@ -1,5 +1,5 @@
-import 'package:denwee/db/database.dart';
-import 'package:denwee/db/tables/fact_explanations_table.dart';
+import 'package:nasmotives/db/database.dart';
+import 'package:nasmotives/db/tables/fact_explanations_table.dart';
 import 'package:drift/drift.dart';
 import 'package:injectable/injectable.dart';
 

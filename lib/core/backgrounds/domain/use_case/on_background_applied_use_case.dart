@@ -1,8 +1,8 @@
 import 'dart:async';
 
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
-import 'package:denwee/presentation/bloc/backgrounds/available_backgrounds_cubit.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/available_backgrounds_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton()

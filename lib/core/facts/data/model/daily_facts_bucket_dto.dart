@@ -1,6 +1,6 @@
-import 'package:denwee/core/facts/data/model/daily_fact_dto.dart';
-import 'package:denwee/core/facts/domain/entity/daily_facts_bucket.dart';
-import 'package:denwee/presentation/shared/constants/formatters/date_formatters.dart';
+import 'package:nasmotives/core/facts/data/model/daily_fact_dto.dart';
+import 'package:nasmotives/core/facts/domain/entity/daily_facts_bucket.dart';
+import 'package:nasmotives/presentation/shared/constants/formatters/date_formatters.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'daily_facts_bucket_dto.g.dart';

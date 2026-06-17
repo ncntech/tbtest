@@ -1,4 +1,4 @@
-import 'package:denwee/core/network/domain/entity/common_api_failure.dart';
+import 'package:nasmotives/core/network/domain/entity/common_api_failure.dart';
 import 'package:dartz/dartz.dart';
 
 abstract class PushNotificationsRepo {

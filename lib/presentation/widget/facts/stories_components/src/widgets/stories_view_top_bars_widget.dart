@@ -1,8 +1,8 @@
 import 'dart:math';
 
-import 'package:denwee/core/backgrounds/domain/entity/background_style.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/controller/story_controller.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/controller/story_items_view.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_style.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/controller/story_controller.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/controller/story_items_view.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

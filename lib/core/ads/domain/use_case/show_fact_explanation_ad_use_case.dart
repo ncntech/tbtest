@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/ads/domain/entity/app_ad_failure.dart';
-import 'package:denwee/core/ads/domain/repo/ads_repo.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/ads/domain/entity/app_ad_failure.dart';
+import 'package:nasmotives/core/ads/domain/repo/ads_repo.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:injectable/injectable.dart';
 

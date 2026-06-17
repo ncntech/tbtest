@@ -1,10 +1,10 @@
 // ignore_for_file: prefer_function_declarations_over_variables
 
-import 'package:denwee/presentation/shared/router/page_routes_builders/fade_slideup_page_route_builder.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/select_interests/select_interests_page.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/select_notification_time/select_notification_time_page.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/select_theme_coloration/select_theme_coloration_page.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/value_primer/value_primer_page.dart';
+import 'package:nasmotives/presentation/shared/router/page_routes_builders/fade_slideup_page_route_builder.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/select_interests/select_interests_page.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/select_notification_time/select_notification_time_page.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/select_theme_coloration/select_theme_coloration_page.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/value_primer/value_primer_page.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingConfigurationRoutes {

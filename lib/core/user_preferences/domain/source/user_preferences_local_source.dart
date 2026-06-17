@@ -1,4 +1,4 @@
-import 'package:denwee/core/user_preferences/data/model/user_preferences_dto.dart';
+import 'package:nasmotives/core/user_preferences/data/model/user_preferences_dto.dart';
 
 abstract class UserPreferencesLocalSource {
   ///

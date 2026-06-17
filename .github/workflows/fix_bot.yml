@@ -1,0 +1,44 @@
+name: Fix Bot
+
+on:
+  pull_request:
+    types: [labeled]
+
+jobs:
+  autofix:
+    name: Auto Fix & Format
+    if: ${{ github.event.label.name == 'autofix' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.32.5"
+          channel: "stable"
+          cache: true
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Run dart fix
+        run: dart fix --apply
+
+      - name: Format code
+        run: dart format lib/
+
+      - name: Run build_runner
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Commit fixes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 fix-bot: dart fix + format + codegen"
+          commit_author: "NasMotives Fix Bot <nastechassist@gmail.com>"

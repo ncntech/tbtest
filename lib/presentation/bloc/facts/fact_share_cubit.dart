@@ -1,13 +1,13 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
-import 'package:denwee/core/facts/domain/util/share/fact_capture_util.dart';
-import 'package:denwee/core/facts/domain/util/share/compositor/fact_share_compositor.dart';
-import 'package:denwee/core/facts/domain/util/share/fact_shares_storage.dart';
-import 'package:denwee/core/network/domain/entity/common_api_failure.dart';
-import 'package:denwee/presentation/bloc/backgrounds/active_background_cubit.dart';
-import 'package:denwee/presentation/widget/shared/sheets/fact_share/fact_share_bottom_sheet_widget.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/core/facts/domain/util/share/fact_capture_util.dart';
+import 'package:nasmotives/core/facts/domain/util/share/compositor/fact_share_compositor.dart';
+import 'package:nasmotives/core/facts/domain/util/share/fact_shares_storage.dart';
+import 'package:nasmotives/core/network/domain/entity/common_api_failure.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/active_background_cubit.dart';
+import 'package:nasmotives/presentation/widget/shared/sheets/fact_share/fact_share_bottom_sheet_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

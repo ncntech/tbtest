@@ -1,10 +1,10 @@
-import 'package:denwee/presentation/shared/theme/app_colors.dart';
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/presentation/shared/theme/app_colors.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class DenweeWatermark extends StatelessWidget {
-  const DenweeWatermark({
+class NasMotivesWatermark extends StatelessWidget {
+  const NasMotivesWatermark({
     super.key,
     required this.backgroundColor,
     required this.textColor,
@@ -13,7 +13,7 @@ class DenweeWatermark extends StatelessWidget {
   final Color backgroundColor;
   final Color textColor;
 
-  static const _txt = 'denwee.com';
+  static const _txt = 'nasmotives · Powered by NasTech AI';
 
   @override
   Widget build(BuildContext context) {

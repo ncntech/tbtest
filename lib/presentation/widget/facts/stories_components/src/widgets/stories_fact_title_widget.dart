@@ -1,13 +1,13 @@
 import 'dart:math';
 
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/animated_switchers.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/presentation/widget/shared/buttons/archive_button_widget.dart';
-import 'package:denwee/presentation/widget/shared/buttons/back_button_widget.dart';
-import 'package:denwee/presentation/widget/shared/misc/surface_container_widget.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/animated_switchers.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/buttons/archive_button_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/buttons/back_button_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/misc/surface_container_widget.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -1,5 +1,5 @@
-import 'package:denwee/core/misc/data/storage/common_storage.dart';
-import 'package:denwee/presentation/shared/router/root_router.dart';
+import 'package:nasmotives/core/misc/data/storage/common_storage.dart';
+import 'package:nasmotives/presentation/shared/router/root_router.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton()

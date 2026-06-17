@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/page/authentication/authentication_routes.dart';
+import 'package:nasmotives/presentation/page/authentication/authentication_routes.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'authentication_page_args.g.dart';

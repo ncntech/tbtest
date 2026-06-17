@@ -1,14 +1,14 @@
 import 'dart:math';
 import 'dart:ui';
 
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/widgets/stories_interest_background_image_widget.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/widgets/stories_view_custom_background_widget.dart';
-import 'package:denwee/presentation/bloc/backgrounds/active_background_cubit.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/widgets/stories_interest_background_image_widget.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/widgets/stories_view_custom_background_widget.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/active_background_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

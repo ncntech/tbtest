@@ -1,5 +1,5 @@
-import 'package:denwee/core/network/data/model/connection_exception.dart';
-import 'package:denwee/core/subscriptions/data/model/user_subscription_dto.dart';
+import 'package:nasmotives/core/network/data/model/connection_exception.dart';
+import 'package:nasmotives/core/subscriptions/data/model/user_subscription_dto.dart';
 
 abstract class SubscriptionsRemoteSource {
   /// Throws:

@@ -1,8 +1,8 @@
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/bloc/backgrounds/background_edit_cubit.dart';
-import 'package:denwee/presentation/bloc/facts/daily_facts_cubit.dart';
-import 'package:denwee/presentation/bloc/facts/fact_explanation_cubit.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/widgets/stories_fact_page_widget.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/background_edit_cubit.dart';
+import 'package:nasmotives/presentation/bloc/facts/daily_facts_cubit.dart';
+import 'package:nasmotives/presentation/bloc/facts/fact_explanation_cubit.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/widgets/stories_fact_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

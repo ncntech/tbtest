@@ -1,6 +1,6 @@
-import 'package:denwee/core/backgrounds/data/model/apply_background_body_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/apply_background_response_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/available_backgrounds_response_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/apply_background_body_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/apply_background_response_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/available_backgrounds_response_dto.dart';
 
 abstract class BackgroundsRemoteSource {
   /// Throws:

@@ -1,9 +1,9 @@
 import 'dart:io';
 import 'dart:typed_data';
 
-import 'package:denwee/core/backgrounds/domain/entity/available_background.dart';
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
-import 'package:denwee/core/facts/domain/util/share/fact_shares_storage.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/available_background.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/core/facts/domain/util/share/fact_shares_storage.dart';
 import 'package:injectable/injectable.dart';
 
 import 'fact_image_compositor.dart';

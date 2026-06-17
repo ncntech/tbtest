@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

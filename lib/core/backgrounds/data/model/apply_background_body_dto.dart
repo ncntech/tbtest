@@ -1,6 +1,6 @@
-import 'package:denwee/core/backgrounds/data/model/background_style_dto.dart';
-import 'package:denwee/core/backgrounds/domain/entity/apply_background_body.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/backgrounds/data/model/background_style_dto.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/apply_background_body.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 

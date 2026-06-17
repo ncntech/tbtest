@@ -1,7 +1,7 @@
-import 'package:denwee/presentation/bloc/user_statistics/user_statistics_cubit.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/bloc/facts/fact_explanation_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_statistics/user_statistics_cubit.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/bloc/facts/fact_explanation_cubit.dart';
 import 'package:flutter/material.dart';
 
 class NavigationUtil {

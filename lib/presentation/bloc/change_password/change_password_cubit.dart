@@ -1,8 +1,8 @@
-import 'package:denwee/core/auth/domain/entity/change_password_body.dart';
-import 'package:denwee/core/auth/domain/entity/password.dart';
-import 'package:denwee/core/auth/domain/entity/reset_password_body.dart';
-import 'package:denwee/core/auth/domain/entity/change_password_failure.dart';
-import 'package:denwee/core/auth/domain/repo/auth_repo.dart';
+import 'package:nasmotives/core/auth/domain/entity/change_password_body.dart';
+import 'package:nasmotives/core/auth/domain/entity/password.dart';
+import 'package:nasmotives/core/auth/domain/entity/reset_password_body.dart';
+import 'package:nasmotives/core/auth/domain/entity/change_password_failure.dart';
+import 'package:nasmotives/core/auth/domain/repo/auth_repo.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

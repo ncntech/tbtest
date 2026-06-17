@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'package:denwee/core/facts/data/model/daily_facts_bucket_dto.dart';
-import 'package:denwee/core/facts/data/model/fact_explanation_dto.dart';
-import 'package:denwee/core/facts/domain/source/facts_local_source.dart';
-import 'package:denwee/core/misc/data/storage/local_storage.dart';
-import 'package:denwee/db/daos/fact_explanations_dao.dart';
-import 'package:denwee/di/server_module.dart';
+import 'package:nasmotives/core/facts/data/model/daily_facts_bucket_dto.dart';
+import 'package:nasmotives/core/facts/data/model/fact_explanation_dto.dart';
+import 'package:nasmotives/core/facts/domain/source/facts_local_source.dart';
+import 'package:nasmotives/core/misc/data/storage/local_storage.dart';
+import 'package:nasmotives/db/daos/fact_explanations_dao.dart';
+import 'package:nasmotives/di/server_module.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: FactsLocalSource)

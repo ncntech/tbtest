@@ -1,5 +1,5 @@
-import 'package:denwee/core/network/data/model/connection_exception.dart';
-import 'package:denwee/core/statistics/data/model/user_statistics_dto.dart';
+import 'package:nasmotives/core/network/data/model/connection_exception.dart';
+import 'package:nasmotives/core/statistics/data/model/user_statistics_dto.dart';
 
 abstract class StatisticsRemoteSource {
   /// Throws:

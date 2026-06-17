@@ -1,8 +1,8 @@
 import 'dart:ui';
 
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/widget/shared/animations/tap_animations/bounce_tap_with_builder_animation.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/tap_animations/bounce_tap_with_builder_animation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

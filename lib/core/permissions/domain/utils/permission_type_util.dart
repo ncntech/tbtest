@@ -1,8 +1,8 @@
 import 'package:app_settings/app_settings.dart';
-import 'package:denwee/core/permissions/domain/entity/app_permission_status.dart';
-import 'package:denwee/core/permissions/domain/repo/app_permission.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/bloc/permissions/permissions_cubit.dart';
+import 'package:nasmotives/core/permissions/domain/entity/app_permission_status.dart';
+import 'package:nasmotives/core/permissions/domain/repo/app_permission.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/bloc/permissions/permissions_cubit.dart';
 
 extension AppPermissionTypeX on AppPermissionType {
   Future<void> openSettings() {

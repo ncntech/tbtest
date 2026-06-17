@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:denwee/core/profile/data/model/profile_dto.dart';
-import 'package:denwee/core/misc/data/storage/local_storage.dart';
-import 'package:denwee/core/profile/domain/source/profile_local_source.dart';
-import 'package:denwee/di/server_module.dart';
+import 'package:nasmotives/core/profile/data/model/profile_dto.dart';
+import 'package:nasmotives/core/misc/data/storage/local_storage.dart';
+import 'package:nasmotives/core/profile/domain/source/profile_local_source.dart';
+import 'package:nasmotives/di/server_module.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: ProfileLocalSource)

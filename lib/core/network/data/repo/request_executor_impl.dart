@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:denwee/core/auth/domain/repo/access_token_repo.dart';
-import 'package:denwee/core/network/data/model/authorization_exception.dart';
-import 'package:denwee/core/network/data/model/connection_exception.dart';
-import 'package:denwee/core/network/data/model/server_response.dart';
-import 'package:denwee/core/network/domain/repo/request_executor.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/di/di.dart';
+import 'package:nasmotives/core/auth/domain/repo/access_token_repo.dart';
+import 'package:nasmotives/core/network/data/model/authorization_exception.dart';
+import 'package:nasmotives/core/network/data/model/connection_exception.dart';
+import 'package:nasmotives/core/network/data/model/server_response.dart';
+import 'package:nasmotives/core/network/domain/repo/request_executor.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/di/di.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:utils/utils.dart';
