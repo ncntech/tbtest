@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:denwee/db/daos/ad_views_dao.dart';
-import 'package:denwee/db/daos/fact_explanations_dao.dart';
-import 'package:denwee/db/tables/ad_views_table.dart';
-import 'package:denwee/db/tables/fact_explanations_table.dart';
-import 'package:denwee/di/di.dart';
+import 'package:nasmotives/db/daos/ad_views_dao.dart';
+import 'package:nasmotives/db/daos/fact_explanations_dao.dart';
+import 'package:nasmotives/db/tables/ad_views_table.dart';
+import 'package:nasmotives/db/tables/fact_explanations_table.dart';
+import 'package:nasmotives/di/di.dart';
 import 'package:drift/drift.dart';
 import 'package:drift/native.dart';
 import 'package:injectable/injectable.dart';

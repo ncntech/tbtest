@@ -1,4 +1,4 @@
-import 'package:denwee/core/facts/domain/entity/archived_fact.dart';
+import 'package:nasmotives/core/facts/domain/entity/archived_fact.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'archive_list_result.freezed.dart';

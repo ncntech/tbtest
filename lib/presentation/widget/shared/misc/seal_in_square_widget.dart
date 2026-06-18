@@ -1,5 +1,5 @@
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/widget/shared/animations/animated_icons/seal_animated_icon_widget.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animated_icons/seal_animated_icon_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

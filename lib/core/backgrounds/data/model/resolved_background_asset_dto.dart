@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/backgrounds/data/model/active_background_dto.dart';
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/core/backgrounds/data/model/active_background_dto.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 

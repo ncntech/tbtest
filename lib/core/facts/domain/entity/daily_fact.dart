@@ -1,14 +1,14 @@
 import 'dart:ui';
 
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/core/misc/domain/entity/i_entity.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/core/network/domain/entity/network_link.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/presentation/shared/constants/app/user_interests.dart';
-import 'package:denwee/presentation/shared/constants/formatters/date_formatters.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/core/misc/domain/entity/i_entity.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/network/domain/entity/network_link.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/presentation/shared/constants/app/user_interests.dart';
+import 'package:nasmotives/presentation/shared/constants/formatters/date_formatters.dart';
 import 'package:dartz/dartz.dart';
-import 'package:denwee/di/di.dart';
+import 'package:nasmotives/di/di.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:utils/utils.dart';
 import 'package:timeago/timeago.dart' as timeago;

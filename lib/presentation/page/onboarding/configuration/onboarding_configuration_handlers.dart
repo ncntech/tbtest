@@ -1,17 +1,17 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:denwee/presentation/bloc/connectivity/connectivity_cubit.dart';
-import 'package:denwee/presentation/bloc/permissions/permissions_cubit.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/presentation/shared/router/root_router.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
-import 'package:denwee/core/user_preferences/domain/entity/user_preferences.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/bloc/onboarding/onboarding_configuration_cubit.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/onboarding_configuration_step.dart';
-import 'package:denwee/presentation/bloc/onboarding/select_interests_cubit.dart';
-import 'package:denwee/presentation/bloc/onboarding/select_notification_time_cubit.dart';
+import 'package:nasmotives/presentation/bloc/connectivity/connectivity_cubit.dart';
+import 'package:nasmotives/presentation/bloc/permissions/permissions_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/presentation/shared/router/root_router.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/user_preferences.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/bloc/onboarding/onboarding_configuration_cubit.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/onboarding_configuration_step.dart';
+import 'package:nasmotives/presentation/bloc/onboarding/select_interests_cubit.dart';
+import 'package:nasmotives/presentation/bloc/onboarding/select_notification_time_cubit.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

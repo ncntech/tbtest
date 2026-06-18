@@ -1,5 +1,5 @@
 import 'package:circular_reveal_animation/circular_reveal_animation.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
 import 'package:flutter/material.dart';
 
 class CircularRevealPageRouteBuilder<T> extends PageRouteBuilder<T> {

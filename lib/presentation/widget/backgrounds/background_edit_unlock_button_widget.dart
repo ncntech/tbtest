@@ -1,15 +1,15 @@
 import 'dart:math';
 
-import 'package:denwee/core/backgrounds/domain/entity/available_background.dart';
-import 'package:denwee/presentation/bloc/user_statistics/user_statistics_cubit.dart';
-import 'package:denwee/presentation/page/available_backgrounds/util/background_selection_util.dart';
-import 'package:denwee/presentation/shared/localization/locale_keys.g.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
-import 'package:denwee/presentation/widget/shared/animations/animated_icons/smiling_star_animated_icon_widget.dart';
-import 'package:denwee/presentation/widget/shared/animations/animated_icons/sparkles_animated_icon_widget.dart';
-import 'package:denwee/presentation/widget/shared/buttons/app_solid_button_widget.dart';
-import 'package:denwee/presentation/widget/shared/misc/surface_container_widget.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/available_background.dart';
+import 'package:nasmotives/presentation/bloc/user_statistics/user_statistics_cubit.dart';
+import 'package:nasmotives/presentation/page/available_backgrounds/util/background_selection_util.dart';
+import 'package:nasmotives/presentation/shared/localization/locale_keys.g.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animated_icons/smiling_star_animated_icon_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animated_icons/sparkles_animated_icon_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/buttons/app_solid_button_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/misc/surface_container_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

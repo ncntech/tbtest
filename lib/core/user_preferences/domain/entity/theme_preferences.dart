@@ -1,5 +1,5 @@
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

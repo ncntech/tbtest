@@ -1,5 +1,5 @@
 import 'package:animated_flip_counter/animated_flip_counter.dart';
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
 import 'package:flutter/material.dart';
 
 class AnimatedNumber extends StatelessWidget {

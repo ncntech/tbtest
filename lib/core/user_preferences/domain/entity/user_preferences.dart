@@ -1,10 +1,10 @@
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/constants/app/user_interests.dart';
-import 'package:denwee/core/user_preferences/domain/entity/background_preferences.dart';
-import 'package:denwee/core/user_preferences/domain/entity/misc_preferences.dart';
-import 'package:denwee/core/user_preferences/domain/entity/notifications_preferences.dart';
-import 'package:denwee/core/user_preferences/domain/entity/theme_preferences.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/constants/app/user_interests.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/background_preferences.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/misc_preferences.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/notifications_preferences.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/theme_preferences.dart';
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

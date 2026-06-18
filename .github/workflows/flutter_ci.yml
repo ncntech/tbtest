@@ -1,0 +1,94 @@
+name: Flutter CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: ["**"]
+
+jobs:
+  analyze:
+    name: Analyze & Format
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.44.2"
+          channel: "stable"
+          cache: true
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Generate localization files
+        run: |
+          mkdir -p lib/presentation/shared/localization
+          flutter pub run easy_localization:generate \
+            -S "assets/translations" \
+            -O "lib/presentation/shared/localization"
+          flutter pub run easy_localization:generate \
+            -S "assets/translations" \
+            -O "lib/presentation/shared/localization" \
+            -o "locale_keys.g.dart" \
+            -f keys
+
+      - name: Run build_runner (codegen)
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Check formatting (advisory)
+        run: dart format --output=none --set-exit-if-changed lib/ || true
+
+      - name: Flutter analyze
+        run: flutter analyze --no-fatal-infos
+        continue-on-error: true
+
+  build_check:
+    name: Build Check (Android)
+    runs-on: ubuntu-latest
+    needs: analyze
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.44.2"
+          channel: "stable"
+          cache: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: "17"
+          distribution: "temurin"
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Generate localization files
+        run: |
+          mkdir -p lib/presentation/shared/localization
+          flutter pub run easy_localization:generate \
+            -S "assets/translations" \
+            -O "lib/presentation/shared/localization"
+          flutter pub run easy_localization:generate \
+            -S "assets/translations" \
+            -O "lib/presentation/shared/localization" \
+            -o "locale_keys.g.dart" \
+            -f keys
+
+      - name: Run build_runner
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Build APK (debug)
+        run: flutter build apk --debug --flavor dev -t lib/main_dev.dart
+
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: nasmotives-debug-apk
+          path: build/app/outputs/flutter-apk/app-dev-debug.apk
+          retention-days: 7

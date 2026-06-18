@@ -1,9 +1,9 @@
-import 'package:denwee/core/facts/domain/entity/daily_fact.dart';
-import 'package:denwee/core/facts/domain/entity/daily_facts_bucket.dart';
-import 'package:denwee/core/facts/domain/entity/facts_failure.dart';
-import 'package:denwee/core/facts/domain/repo/daily_facts_repo.dart';
+import 'package:nasmotives/core/facts/domain/entity/daily_fact.dart';
+import 'package:nasmotives/core/facts/domain/entity/daily_facts_bucket.dart';
+import 'package:nasmotives/core/facts/domain/entity/facts_failure.dart';
+import 'package:nasmotives/core/facts/domain/repo/daily_facts_repo.dart';
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/facts/domain/use_case/get_daily_facts_bucket_use_case.dart';
+import 'package:nasmotives/core/facts/domain/use_case/get_daily_facts_bucket_use_case.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';

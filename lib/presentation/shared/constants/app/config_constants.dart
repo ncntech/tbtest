@@ -184,16 +184,16 @@ class _ConfigConstants {
   // ---------------------------------------------------------------------------
 
   /// Open-source repository
-  final aboutAppUrl = 'https://github.com/denweeLabs/factlyapp';
+  final aboutAppUrl = 'https://github.com/ncntech/tbtest';
 
   /// Landing page
-  final denweeLandingUrl = 'https://denwee.com';
+  final nasMotivesLandingUrl = 'https://nastechai.com/nasmotives';
 
   /// Privacy & Terms
-  final privacyPolicyUrl = 'https://denwee.com/privacy';
-  final termsOfUseUrl = 'https://denwee.com/terms';
+  final privacyPolicyUrl = 'https://nastechai.com/nasmotives/privacy';
+  final termsOfUseUrl = 'https://nastechai.com/nasmotives/terms';
 
   /// Support contact
-  final supportEmail = 'support@denwee.com';
-  final supportEmailSubject = 'Support Request :)';
+  final supportEmail = 'nastechassist@gmail.com';
+  final supportEmailSubject = 'NasMotives Support Request';
 }

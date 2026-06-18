@@ -1,8 +1,8 @@
-import 'package:denwee/core/backgrounds/domain/entity/background_asset.dart';
-import 'package:denwee/core/backgrounds/domain/entity/background_category.dart';
-import 'package:denwee/core/backgrounds/domain/entity/background_style.dart';
-import 'package:denwee/core/misc/domain/entity/i_entity.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_asset.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_category.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_style.dart';
+import 'package:nasmotives/core/misc/domain/entity/i_entity.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'available_background.freezed.dart';

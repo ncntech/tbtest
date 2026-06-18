@@ -1,4 +1,4 @@
-import 'package:denwee/core/network/data/model/server_error_response.dart';
+import 'package:nasmotives/core/network/data/model/server_error_response.dart';
 
 class ServerResponse {
   final int? statusCode;

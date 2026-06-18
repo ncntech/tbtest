@@ -1,6 +1,6 @@
-import 'package:denwee/core/profile/domain/entity/profile.dart';
-import 'package:denwee/core/statistics/domain/entity/user_statistics.dart';
-import 'package:denwee/core/user_preferences/domain/entity/user_preferences.dart';
+import 'package:nasmotives/core/profile/domain/entity/profile.dart';
+import 'package:nasmotives/core/statistics/domain/entity/user_statistics.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/user_preferences.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'login_anonymously_result.freezed.dart';

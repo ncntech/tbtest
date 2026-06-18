@@ -1,6 +1,6 @@
-import 'package:denwee/core/network/data/model/authorization_exception.dart';
-import 'package:denwee/core/network/data/model/connection_exception.dart';
-import 'package:denwee/core/network/data/model/generic_exception.dart';
+import 'package:nasmotives/core/network/data/model/authorization_exception.dart';
+import 'package:nasmotives/core/network/data/model/connection_exception.dart';
+import 'package:nasmotives/core/network/data/model/generic_exception.dart';
 
 abstract class AppException {}
 

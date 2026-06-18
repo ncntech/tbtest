@@ -1,4 +1,4 @@
-import 'package:denwee/core/network/domain/repo/connectivity_repo.dart';
+import 'package:nasmotives/core/network/domain/repo/connectivity_repo.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:injectable/injectable.dart';
 import 'package:collection/collection.dart';

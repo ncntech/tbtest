@@ -1,4 +1,4 @@
-import 'package:denwee/core/backgrounds/domain/entity/background_style.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_style.dart';
 import 'package:flutter/foundation.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:utils/utils.dart';

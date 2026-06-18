@@ -1,8 +1,8 @@
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/theme/app_colors.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/widget/shared/animations/shimmer_animation_widget.dart';
-import 'package:denwee/presentation/widget/shared/animations/tap_animations/bounce_tap_with_builder_animation.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/theme/app_colors.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/shimmer_animation_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/tap_animations/bounce_tap_with_builder_animation.dart';
 import 'package:flutter/material.dart';
 
 enum SurfaceContainerType {

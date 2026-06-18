@@ -1,5 +1,5 @@
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/widget/shared/animations/lottie_animation_widget.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/lottie_animation_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:simple_animations/simple_animations.dart';
 

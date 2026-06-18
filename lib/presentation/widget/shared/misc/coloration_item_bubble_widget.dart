@@ -1,7 +1,7 @@
-import 'package:denwee/core/misc/domain/entity/theme_coloration.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/presentation/widget/shared/animations/tap_animations/bounce_tap_animation.dart';
+import 'package:nasmotives/core/misc/domain/entity/theme_coloration.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/tap_animations/bounce_tap_animation.dart';
 import 'package:flutter/material.dart';
 
 class ColorationItemBubble extends StatelessWidget {

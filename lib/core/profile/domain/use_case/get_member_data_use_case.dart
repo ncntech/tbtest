@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:denwee/core/profile/domain/repo/profile_repo.dart';
-import 'package:denwee/presentation/bloc/facts/facts_archive_cubit.dart';
-import 'package:denwee/presentation/bloc/profile/profile_cubit.dart';
-import 'package:denwee/presentation/bloc/subscriptions/user_subscription_cubit.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/presentation/bloc/user_statistics/user_statistics_cubit.dart';
+import 'package:nasmotives/core/profile/domain/repo/profile_repo.dart';
+import 'package:nasmotives/presentation/bloc/facts/facts_archive_cubit.dart';
+import 'package:nasmotives/presentation/bloc/profile/profile_cubit.dart';
+import 'package:nasmotives/presentation/bloc/subscriptions/user_subscription_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_statistics/user_statistics_cubit.dart';
 import 'package:injectable/injectable.dart';
 import 'package:utils/utils.dart';
 

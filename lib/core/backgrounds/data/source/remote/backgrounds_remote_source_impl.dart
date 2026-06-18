@@ -1,10 +1,10 @@
-import 'package:denwee/core/backgrounds/data/model/apply_background_body_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/apply_background_response_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/available_backgrounds_response_dto.dart';
-import 'package:denwee/core/backgrounds/data/source/remote/backgrounds_api.dart';
-import 'package:denwee/core/backgrounds/domain/source/backgrounds_remote_source.dart';
-import 'package:denwee/core/network/data/model/connection_exception.dart';
-import 'package:denwee/core/network/data/model/server_response.dart';
+import 'package:nasmotives/core/backgrounds/data/model/apply_background_body_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/apply_background_response_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/available_backgrounds_response_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/source/remote/backgrounds_api.dart';
+import 'package:nasmotives/core/backgrounds/domain/source/backgrounds_remote_source.dart';
+import 'package:nasmotives/core/network/data/model/connection_exception.dart';
+import 'package:nasmotives/core/network/data/model/server_response.dart';
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 

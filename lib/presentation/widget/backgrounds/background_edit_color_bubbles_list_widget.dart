@@ -1,5 +1,5 @@
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/widget/shared/animations/tap_animations/bounce_tap_animation.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/tap_animations/bounce_tap_animation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

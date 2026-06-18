@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/widget/shared/animations/animate_do/core/core_animation_mixin.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animate_do/core/core_animation_mixin.dart';
 import 'package:flutter/material.dart';
 
 /// [key]: optional widget key reference

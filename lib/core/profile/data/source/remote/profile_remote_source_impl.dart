@@ -1,9 +1,9 @@
-import 'package:denwee/core/network/data/model/server_response.dart';
-import 'package:denwee/core/profile/data/model/member_data_response_dto.dart';
-import 'package:denwee/core/profile/data/model/profile_dto.dart';
-import 'package:denwee/core/profile/data/model/update_profile_body_dto.dart';
-import 'package:denwee/core/profile/data/source/remote/profile_api.dart';
-import 'package:denwee/core/profile/domain/source/profile_remote_source.dart';
+import 'package:nasmotives/core/network/data/model/server_response.dart';
+import 'package:nasmotives/core/profile/data/model/member_data_response_dto.dart';
+import 'package:nasmotives/core/profile/data/model/profile_dto.dart';
+import 'package:nasmotives/core/profile/data/model/update_profile_body_dto.dart';
+import 'package:nasmotives/core/profile/data/source/remote/profile_api.dart';
+import 'package:nasmotives/core/profile/domain/source/profile_remote_source.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: ProfileRemoteSource)

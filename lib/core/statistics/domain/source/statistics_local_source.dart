@@ -1,4 +1,4 @@
-import 'package:denwee/core/statistics/data/model/user_statistics_dto.dart';
+import 'package:nasmotives/core/statistics/data/model/user_statistics_dto.dart';
 
 abstract class StatisticsLocalSource {
   ///

@@ -1,4 +1,4 @@
-import 'package:denwee/core/notifications/data/model/push_notifications_subscribe_body_dto.dart';
+import 'package:nasmotives/core/notifications/data/model/push_notifications_subscribe_body_dto.dart';
 
 abstract class PushNotificationsRemoteSource {
   /// Throws:

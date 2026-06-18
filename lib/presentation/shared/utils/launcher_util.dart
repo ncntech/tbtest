@@ -1,12 +1,12 @@
 // ignore_for_file: use_build_context_synchronously
 
 import 'dart:async';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/redirect_util.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/shared/localization/locale_keys.g.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/redirect_util.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/shared/localization/locale_keys.g.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -76,24 +76,24 @@ class LauncherUtil {
   }
 
   static Future<bool> launchTermsOfUse(BuildContext context) async {
-    return _launchDenweeLandingRes(context, AppConstants.config.termsOfUseUrl);
+    return _launchNasMotivesLandingRes(context, AppConstants.config.termsOfUseUrl);
   }
 
   static Future<bool> launchPrivacyPolicy(BuildContext context) async {
-    return _launchDenweeLandingRes(
+    return _launchNasMotivesLandingRes(
       context,
       AppConstants.config.privacyPolicyUrl,
     );
   }
 
-  static Future<bool> launchDenweeLanding(BuildContext context) async {
-    return _launchDenweeLandingRes(
+  static Future<bool> launchNasMotivesLanding(BuildContext context) async {
+    return _launchNasMotivesLandingRes(
       context,
-      AppConstants.config.denweeLandingUrl,
+      AppConstants.config.nasMotivesLandingUrl,
     );
   }
 
-  static Future<bool> _launchDenweeLandingRes(
+  static Future<bool> _launchNasMotivesLandingRes(
     BuildContext context,
     String resource,
   ) async {

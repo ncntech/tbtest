@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
 import 'package:flutter/material.dart';
 
 class CommonWheelListView<T> extends StatefulWidget {

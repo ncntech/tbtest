@@ -1,7 +1,7 @@
-import 'package:denwee/core/network/data/model/server_response.dart';
-import 'package:denwee/core/subscriptions/data/model/user_subscription_dto.dart';
-import 'package:denwee/core/subscriptions/data/source/remote/subscriptions_api.dart';
-import 'package:denwee/core/subscriptions/domain/source/subscriptions_remote_source.dart';
+import 'package:nasmotives/core/network/data/model/server_response.dart';
+import 'package:nasmotives/core/subscriptions/data/model/user_subscription_dto.dart';
+import 'package:nasmotives/core/subscriptions/data/source/remote/subscriptions_api.dart';
+import 'package:nasmotives/core/subscriptions/domain/source/subscriptions_remote_source.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: SubscriptionsRemoteSource)

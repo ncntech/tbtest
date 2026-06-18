@@ -1,7 +1,7 @@
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/widget/shared/animations/animate_do/fade_in_down.dart';
-import 'package:denwee/presentation/widget/shared/animations/animate_do/fade_in_up.dart';
-import 'package:denwee/presentation/widget/shared/animations/bubbles_animation_widget.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animate_do/fade_in_down.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animate_do/fade_in_up.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/bubbles_animation_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

@@ -2,20 +2,20 @@
 
 import 'dart:math';
 
-import 'package:denwee/core/auth/domain/use_case/on_logout_use_case.dart';
-import 'package:denwee/core/subscriptions/domain/entity/premium_packages.dart';
-import 'package:denwee/core/subscriptions/domain/entity/subscriptions_failure.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
-import 'package:denwee/presentation/bloc/permissions/permissions_cubit.dart';
-import 'package:denwee/presentation/bloc/subscriptions/user_subscription_cubit.dart';
-import 'package:denwee/presentation/shared/router/root_router.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/shared/localization/locale_keys.g.dart';
-import 'package:denwee/presentation/page/authentication/args/authentication_page_args.dart';
-import 'package:denwee/presentation/page/authentication/authentication_routes.dart';
+import 'package:nasmotives/core/auth/domain/use_case/on_logout_use_case.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_packages.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/subscriptions_failure.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/presentation/bloc/permissions/permissions_cubit.dart';
+import 'package:nasmotives/presentation/bloc/subscriptions/user_subscription_cubit.dart';
+import 'package:nasmotives/presentation/shared/router/root_router.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/shared/localization/locale_keys.g.dart';
+import 'package:nasmotives/presentation/page/authentication/args/authentication_page_args.dart';
+import 'package:nasmotives/presentation/page/authentication/authentication_routes.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:utils/utils.dart';

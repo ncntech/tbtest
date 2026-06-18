@@ -1,8 +1,8 @@
-import 'package:denwee/core/notifications/domain/entity/push_notification.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
-import 'package:denwee/presentation/widget/shared/snackbars/core_global_snackbar_widget.dart';
+import 'package:nasmotives/core/notifications/domain/entity/push_notification.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/presentation/widget/shared/snackbars/core_global_snackbar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

@@ -1,4 +1,4 @@
-part of 'package:denwee/presentation/page/premium_paywall/premium_paywall_page.dart';
+part of 'package:nasmotives/presentation/page/premium_paywall/premium_paywall_page.dart';
 
 class _MonthlyPlan extends StatelessWidget {
   const _MonthlyPlan({

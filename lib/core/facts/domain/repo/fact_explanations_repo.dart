@@ -1,6 +1,6 @@
-import 'package:denwee/core/facts/domain/entity/fact_explanation.dart';
-import 'package:denwee/core/facts/domain/entity/facts_failure.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/facts/domain/entity/fact_explanation.dart';
+import 'package:nasmotives/core/facts/domain/entity/facts_failure.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:dartz/dartz.dart';
 
 abstract class FactExplanationsRepo {

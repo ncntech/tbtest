@@ -1,6 +1,6 @@
-import 'package:denwee/core/backgrounds/domain/entity/available_background.dart';
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
-import 'package:denwee/presentation/widget/shared/common/common_video_audio_mixed_widget.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/available_background.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/presentation/widget/shared/common/common_video_audio_mixed_widget.dart';
 import 'package:flutter/material.dart';
 
 class StoriesViewCustomBackground extends StatelessWidget {

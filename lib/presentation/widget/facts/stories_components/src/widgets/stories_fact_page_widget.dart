@@ -1,18 +1,18 @@
-import 'package:denwee/core/backgrounds/domain/entity/background_style.dart';
-import 'package:denwee/core/facts/domain/entity/daily_fact.dart';
-import 'package:denwee/presentation/bloc/facts/fact_share_cubit.dart';
-import 'package:denwee/presentation/shared/theme/app_colors.dart';
-import 'package:denwee/presentation/shared/utils/widgets_util.dart';
-import 'package:denwee/presentation/widget/facts/denwee_watermark_widget.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/widgets/stories_fact_action_buttons_widget.dart';
-import 'package:denwee/presentation/shared/constants/app/user_interests.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/presentation/widget/shared/animations/scroll_physics/less_responsive_scroll_physics.dart';
-import 'package:denwee/presentation/widget/shared/common/common_skeleton_item_widget.dart';
-import 'package:denwee/presentation/bloc/facts/fact_explanation_cubit.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/widgets/stories_scrollup_button_widget.dart';
-import 'package:denwee/presentation/widget/facts/stories_components/src/widgets/stories_fact_content_widget.dart';
-import 'package:denwee/presentation/page/fact_details/fact_details_listeners.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_style.dart';
+import 'package:nasmotives/core/facts/domain/entity/daily_fact.dart';
+import 'package:nasmotives/presentation/bloc/facts/fact_share_cubit.dart';
+import 'package:nasmotives/presentation/shared/theme/app_colors.dart';
+import 'package:nasmotives/presentation/shared/utils/widgets_util.dart';
+import 'package:nasmotives/presentation/widget/facts/denwee_watermark_widget.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/widgets/stories_fact_action_buttons_widget.dart';
+import 'package:nasmotives/presentation/shared/constants/app/user_interests.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/scroll_physics/less_responsive_scroll_physics.dart';
+import 'package:nasmotives/presentation/widget/shared/common/common_skeleton_item_widget.dart';
+import 'package:nasmotives/presentation/bloc/facts/fact_explanation_cubit.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/widgets/stories_scrollup_button_widget.dart';
+import 'package:nasmotives/presentation/widget/facts/stories_components/src/widgets/stories_fact_content_widget.dart';
+import 'package:nasmotives/presentation/page/fact_details/fact_details_listeners.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -309,7 +309,7 @@ class StoriesFactPageState extends State<StoriesFactPage> with SingleTickerProvi
     final textColor = (widget.backgroundStyle?.textColor ?? Colors.white)
         .withValues(alpha: 0.35);
 
-    return DenweeWatermark(
+    return NasMotivesWatermark(
       backgroundColor: backgroundColor,
       textColor: textColor,
     );

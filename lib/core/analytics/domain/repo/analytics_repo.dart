@@ -1,4 +1,4 @@
-import 'package:denwee/core/subscriptions/domain/entity/premium_packages.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_packages.dart';
 
 abstract class AnalyticsRepo {
   Future<void> logFactUnlockedViaAd();

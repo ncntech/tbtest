@@ -1,5 +1,5 @@
-import 'package:denwee/di/env.dart';
-import 'package:denwee/entry.dart';
+import 'package:nasmotives/di/env.dart';
+import 'package:nasmotives/entry.dart';
 
 void main() {
   run(Env.dev);

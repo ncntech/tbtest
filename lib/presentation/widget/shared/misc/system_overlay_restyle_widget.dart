@@ -1,5 +1,5 @@
-import 'package:denwee/presentation/shared/theme/app_colors.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/theme/app_colors.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

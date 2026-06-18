@@ -1,11 +1,11 @@
 import 'dart:convert';
 
-import 'package:denwee/core/backgrounds/data/model/available_background_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/background_category_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/resolved_background_asset_dto.dart';
-import 'package:denwee/core/backgrounds/domain/source/backgrounds_local_source.dart';
-import 'package:denwee/core/misc/data/storage/local_storage.dart';
-import 'package:denwee/di/server_module.dart';
+import 'package:nasmotives/core/backgrounds/data/model/available_background_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/background_category_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/resolved_background_asset_dto.dart';
+import 'package:nasmotives/core/backgrounds/domain/source/backgrounds_local_source.dart';
+import 'package:nasmotives/core/misc/data/storage/local_storage.dart';
+import 'package:nasmotives/di/server_module.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton(as: BackgroundsLocalSource)

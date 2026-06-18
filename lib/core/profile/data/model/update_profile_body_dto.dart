@@ -1,4 +1,4 @@
-import 'package:denwee/core/profile/domain/entity/update_profile_body.dart';
+import 'package:nasmotives/core/profile/domain/entity/update_profile_body.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'update_profile_body_dto.g.dart';

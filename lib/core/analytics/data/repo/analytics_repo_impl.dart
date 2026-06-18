@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:denwee/core/analytics/domain/repo/analytics_repo.dart';
-import 'package:denwee/core/subscriptions/domain/entity/premium_packages.dart';
+import 'package:nasmotives/core/analytics/domain/repo/analytics_repo.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_packages.dart';
 import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';

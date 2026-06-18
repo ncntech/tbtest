@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/subscriptions/domain/entity/premium_packages.dart';
-import 'package:denwee/core/subscriptions/domain/entity/subscriptions_failure.dart';
-import 'package:denwee/core/subscriptions/domain/repo/subscriptions_repo.dart';
-import 'package:denwee/core/subscriptions/domain/use_case/purchase_subscription_use_case.dart';
-import 'package:denwee/core/subscriptions/domain/use_case/restore_subscription_use_case.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_packages.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/subscriptions_failure.dart';
+import 'package:nasmotives/core/subscriptions/domain/repo/subscriptions_repo.dart';
+import 'package:nasmotives/core/subscriptions/domain/use_case/purchase_subscription_use_case.dart';
+import 'package:nasmotives/core/subscriptions/domain/use_case/restore_subscription_use_case.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';

@@ -1,4 +1,4 @@
-import 'package:denwee/core/auth/domain/providers/google/google_sign_in_provider_result.dart';
+import 'package:nasmotives/core/auth/domain/providers/google/google_sign_in_provider_result.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:injectable/injectable.dart';
 

@@ -1,4 +1,4 @@
-import 'package:denwee/core/profile/data/model/profile_dto.dart';
+import 'package:nasmotives/core/profile/data/model/profile_dto.dart';
 
 abstract class ProfileLocalSource {
   ///

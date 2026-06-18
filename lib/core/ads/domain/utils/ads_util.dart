@@ -1,5 +1,5 @@
-import 'package:denwee/core/ads/domain/entity/app_ad_failure.dart';
-import 'package:denwee/presentation/shared/constants/app/ads_constants.dart';
+import 'package:nasmotives/core/ads/domain/entity/app_ad_failure.dart';
+import 'package:nasmotives/presentation/shared/constants/app/ads_constants.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class AdsUtil {

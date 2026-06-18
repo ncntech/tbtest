@@ -1,13 +1,13 @@
 import 'dart:async';
 
-import 'package:denwee/core/ads/domain/use_case/show_add_to_archive_ad_use_case.dart';
-import 'package:denwee/core/facts/data/source/remote/facts_api.dart';
-import 'package:denwee/core/facts/domain/entity/archived_fact.dart';
-import 'package:denwee/core/facts/domain/entity/facts_failure.dart';
-import 'package:denwee/core/facts/domain/repo/facts_archive_repo.dart';
-import 'package:denwee/core/facts/domain/use_case/handle_facts_archive_use_case.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/core/ads/domain/use_case/show_add_to_archive_ad_use_case.dart';
+import 'package:nasmotives/core/facts/data/source/remote/facts_api.dart';
+import 'package:nasmotives/core/facts/domain/entity/archived_fact.dart';
+import 'package:nasmotives/core/facts/domain/entity/facts_failure.dart';
+import 'package:nasmotives/core/facts/domain/repo/facts_archive_repo.dart';
+import 'package:nasmotives/core/facts/domain/use_case/handle_facts_archive_use_case.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

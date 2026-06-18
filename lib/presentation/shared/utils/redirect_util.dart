@@ -2,15 +2,15 @@
 
 import 'dart:convert';
 
-import 'package:denwee/core/facts/domain/entity/facts_failure.dart';
-import 'package:denwee/core/facts/domain/repo/daily_facts_repo.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/presentation/shared/router/root_router.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/haptic_util.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/page/reset_password/reset_password_page_args.dart';
-import 'package:denwee/presentation/page/fact_details/args/fact_details_page_args.dart';
+import 'package:nasmotives/core/facts/domain/entity/facts_failure.dart';
+import 'package:nasmotives/core/facts/domain/repo/daily_facts_repo.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/presentation/shared/router/root_router.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/haptic_util.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/page/reset_password/reset_password_page_args.dart';
+import 'package:nasmotives/presentation/page/fact_details/args/fact_details_page_args.dart';
 import 'package:flutter/material.dart';
 import 'package:injectable/injectable.dart';
 import 'package:utils/utils.dart';
@@ -18,11 +18,11 @@ import 'package:utils/utils.dart';
 @LazySingleton()
 class RedirectUtil {
   /*
-  1. denwee://factlyapp/resetPassword
-  2. denwee://factlyapp/factDetails?id=1
+  1. nasmotives://app/resetPassword
+  2. nasmotives://app/factDetails?id=1
   */
 
-  static const scheme = 'denwee';
+  static const scheme = 'nasmotives';
 
   Future<void> execute(Uri link) async {
     debugPrint('RedirectUtil execute: $link');

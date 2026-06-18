@@ -1,5 +1,5 @@
 import 'package:permission_handler/permission_handler.dart';
-import 'package:denwee/core/permissions/domain/entity/app_permission_status.dart' as pm_status;
+import 'package:nasmotives/core/permissions/domain/entity/app_permission_status.dart' as pm_status;
 
 extension PermissionStatusX on PermissionStatus {
   pm_status.AppPermissionStatus mapToDomain() {

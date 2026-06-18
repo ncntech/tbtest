@@ -1,5 +1,5 @@
-import 'package:denwee/core/auth/domain/entity/email.dart';
-import 'package:denwee/core/auth/domain/entity/username.dart';
+import 'package:nasmotives/core/auth/domain/entity/email.dart';
+import 'package:nasmotives/core/auth/domain/entity/username.dart';
 import 'package:dartz/dartz.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 

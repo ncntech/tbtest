@@ -1,4 +1,4 @@
-import 'package:denwee/core/misc/domain/entity/device_info.dart';
+import 'package:nasmotives/core/misc/domain/entity/device_info.dart';
 
 abstract class DeviceInfoRepo {
   Future<DeviceInfo> getDeviceInfo();

@@ -3,11 +3,11 @@
 import 'dart:io';
 
 import 'package:cached_video_player_plus/cached_video_player_plus.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/presentation/widget/shared/animations/shimmer_animation_widget.dart';
-import 'package:denwee/presentation/widget/shared/buttons/icon_widget.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/shimmer_animation_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/buttons/icon_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:video_player/video_player.dart';

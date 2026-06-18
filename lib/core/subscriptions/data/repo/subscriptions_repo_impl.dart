@@ -1,19 +1,19 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/auth/domain/repo/auth_repo.dart';
-import 'package:denwee/core/network/data/model/app_exception.dart';
-import 'package:denwee/core/subscriptions/data/model/user_subscription_dto.dart';
-import 'package:denwee/core/subscriptions/domain/source/subscriptions_local_source.dart';
-import 'package:denwee/core/subscriptions/domain/source/subscriptions_remote_source.dart';
-import 'package:denwee/core/subscriptions/domain/entity/premium_packages.dart';
-import 'package:denwee/core/subscriptions/domain/entity/premium_product_ids.dart';
-import 'package:denwee/core/subscriptions/domain/entity/user_subscription.dart';
-import 'package:denwee/core/subscriptions/domain/entity/subscriptions_failure.dart';
-import 'package:denwee/core/subscriptions/domain/repo/subscriptions_repo.dart';
-import 'package:denwee/presentation/shared/constants/formatters/input_formatters.dart';
-import 'package:denwee/di/env.dart';
-import 'package:denwee/di/server_module.dart';
+import 'package:nasmotives/core/auth/domain/repo/auth_repo.dart';
+import 'package:nasmotives/core/network/data/model/app_exception.dart';
+import 'package:nasmotives/core/subscriptions/data/model/user_subscription_dto.dart';
+import 'package:nasmotives/core/subscriptions/domain/source/subscriptions_local_source.dart';
+import 'package:nasmotives/core/subscriptions/domain/source/subscriptions_remote_source.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_packages.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_product_ids.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/user_subscription.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/subscriptions_failure.dart';
+import 'package:nasmotives/core/subscriptions/domain/repo/subscriptions_repo.dart';
+import 'package:nasmotives/presentation/shared/constants/formatters/input_formatters.dart';
+import 'package:nasmotives/di/env.dart';
+import 'package:nasmotives/di/server_module.dart';
 import 'package:flutter/services.dart';
 import 'package:injectable/injectable.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
@@ -63,19 +63,19 @@ class SubscriptionsRepoImpl implements SubscriptionsRepo {
   static const _entitlementId = 'premium';
   static const _productIds = <SubscriptionsPlatform, PremiumProductIds>{
     SubscriptionsPlatform.ios: PremiumProductIds(
-      weekly: 'denwee_factlyapp_premium_week',
-      monthly: 'denwee_factlyapp_premium_month',
-      yearly: 'denwee_factlyapp_premium_year',
+      weekly: 'nasmotives_premium_week',
+      monthly: 'nasmotives_premium_month',
+      yearly: 'nasmotives_premium_year',
     ),
     SubscriptionsPlatform.android: PremiumProductIds(
-      weekly: 'denwee_factlyapp_premium_week',
-      monthly: 'denwee_factlyapp_premium_month',
-      yearly: 'denwee_factlyapp_premium_year',
+      weekly: 'nasmotives_premium_week',
+      monthly: 'nasmotives_premium_month',
+      yearly: 'nasmotives_premium_year',
     ),
     SubscriptionsPlatform.test: PremiumProductIds(
-      weekly: 'denwee_factlyapp_premium_week',
-      monthly: 'denwee_factlyapp_premium_month',
-      yearly: 'denwee_factlyapp_premium_year',
+      weekly: 'nasmotives_premium_week',
+      monthly: 'nasmotives_premium_month',
+      yearly: 'nasmotives_premium_year',
     ),
   };
 

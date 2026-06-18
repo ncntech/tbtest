@@ -1,7 +1,7 @@
-import 'package:denwee/core/statistics/domain/entity/user_statistics.dart';
-import 'package:denwee/core/statistics/domain/entity/statistics_failure.dart';
-import 'package:denwee/core/statistics/domain/repo/statistics_repo.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/core/statistics/domain/entity/user_statistics.dart';
+import 'package:nasmotives/core/statistics/domain/entity/statistics_failure.dart';
+import 'package:nasmotives/core/statistics/domain/repo/statistics_repo.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';

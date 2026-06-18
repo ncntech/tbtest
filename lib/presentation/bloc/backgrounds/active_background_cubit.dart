@@ -1,13 +1,13 @@
 // ignore_for_file: unused_field
 
-import 'package:denwee/core/backgrounds/domain/entity/apply_background_body.dart';
-import 'package:denwee/core/backgrounds/domain/entity/resolved_background_asset.dart';
-import 'package:denwee/core/backgrounds/domain/entity/background_failure.dart';
-import 'package:denwee/core/backgrounds/domain/repo/backgrounds_repo.dart';
-import 'package:denwee/core/backgrounds/domain/use_case/apply_custom_background_use_case.dart';
-import 'package:denwee/core/backgrounds/domain/use_case/apply_default_background_use_case.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/apply_background_body.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/resolved_background_asset.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/background_failure.dart';
+import 'package:nasmotives/core/backgrounds/domain/repo/backgrounds_repo.dart';
+import 'package:nasmotives/core/backgrounds/domain/use_case/apply_custom_background_use_case.dart';
+import 'package:nasmotives/core/backgrounds/domain/use_case/apply_default_background_use_case.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';

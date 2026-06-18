@@ -2,40 +2,40 @@
 
 import 'dart:async';
 
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/core/permissions/domain/repo/app_permission.dart';
-import 'package:denwee/core/statistics/domain/entity/user_statistics.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
-import 'package:denwee/presentation/bloc/backgrounds/available_backgrounds_cubit.dart';
-import 'package:denwee/presentation/bloc/profile/profile_cubit.dart';
-import 'package:denwee/presentation/bloc/user_statistics/user_statistics_cubit.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/router/root_router.dart';
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/shared/utils/dialogs_util.dart';
-import 'package:denwee/presentation/shared/utils/launcher_util.dart';
-import 'package:denwee/presentation/widget/shared/animations/animated_number_widget.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/presentation/widget/shared/buttons/icon_widget.dart';
-import 'package:denwee/presentation/widget/shared/common/common_scaffold_widget.dart';
-import 'package:denwee/presentation/widget/profile/subscription_card_widget.dart';
-import 'package:denwee/presentation/widget/backgrounds/backgrounds_overview_list_widget.dart';
-import 'package:denwee/presentation/widget/profile/coloration_overview_selector_widget.dart';
-import 'package:denwee/presentation/bloc/user_preferences/user_preferences_cubit.dart';
-import 'package:denwee/presentation/widget/profile/theme_overview_selector_widget.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/shared/localization/locale_keys.g.dart';
-import 'package:denwee/presentation/page/authentication/args/authentication_page_args.dart';
-import 'package:denwee/presentation/page/authentication/authentication_routes.dart';
-import 'package:denwee/presentation/page/account/account_base_page.dart';
-import 'package:denwee/presentation/page/account/account_routes.dart';
-import 'package:denwee/presentation/widget/account/account_horizontal_tile_widget.dart';
-import 'package:denwee/presentation/widget/account/account_items_divider_widget.dart';
-import 'package:denwee/presentation/widget/account/account_section_widget.dart';
-import 'package:denwee/presentation/widget/profile/profile_overlay_card_widget.dart';
-import 'package:denwee/presentation/widget/onboarding/selected_interests_list_widget.dart';
-import 'package:denwee/presentation/widget/shared/misc/solid_fading_edge_widget.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/core/permissions/domain/repo/app_permission.dart';
+import 'package:nasmotives/core/statistics/domain/entity/user_statistics.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/available_backgrounds_cubit.dart';
+import 'package:nasmotives/presentation/bloc/profile/profile_cubit.dart';
+import 'package:nasmotives/presentation/bloc/user_statistics/user_statistics_cubit.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/router/root_router.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/utils/dialogs_util.dart';
+import 'package:nasmotives/presentation/shared/utils/launcher_util.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/animated_number_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/buttons/icon_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/common/common_scaffold_widget.dart';
+import 'package:nasmotives/presentation/widget/profile/subscription_card_widget.dart';
+import 'package:nasmotives/presentation/widget/backgrounds/backgrounds_overview_list_widget.dart';
+import 'package:nasmotives/presentation/widget/profile/coloration_overview_selector_widget.dart';
+import 'package:nasmotives/presentation/bloc/user_preferences/user_preferences_cubit.dart';
+import 'package:nasmotives/presentation/widget/profile/theme_overview_selector_widget.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/shared/localization/locale_keys.g.dart';
+import 'package:nasmotives/presentation/page/authentication/args/authentication_page_args.dart';
+import 'package:nasmotives/presentation/page/authentication/authentication_routes.dart';
+import 'package:nasmotives/presentation/page/account/account_base_page.dart';
+import 'package:nasmotives/presentation/page/account/account_routes.dart';
+import 'package:nasmotives/presentation/widget/account/account_horizontal_tile_widget.dart';
+import 'package:nasmotives/presentation/widget/account/account_items_divider_widget.dart';
+import 'package:nasmotives/presentation/widget/account/account_section_widget.dart';
+import 'package:nasmotives/presentation/widget/profile/profile_overlay_card_widget.dart';
+import 'package:nasmotives/presentation/widget/onboarding/selected_interests_list_widget.dart';
+import 'package:nasmotives/presentation/widget/shared/misc/solid_fading_edge_widget.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
@@ -247,7 +247,7 @@ class _AccountPageState extends State<AccountPage> {
           title: context.tr(LocaleKeys.account_section_more_items_about_app),
         ),
         AccountHorizontalTile.more(
-          onTap: () => LauncherUtil.launchDenweeLanding(context),
+          onTap: () => LauncherUtil.launchNasMotivesLanding(context),
           iconPath: AppConstants.assets.icons.noteLinear,
           title: context.tr(LocaleKeys.account_section_more_items_privacy_terms),
         ),

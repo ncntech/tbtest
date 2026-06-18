@@ -1,6 +1,6 @@
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/theme/app_colors.dart';
-import 'package:denwee/presentation/widget/shared/snackbars/core_global_snackbar_widget.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/theme/app_colors.dart';
+import 'package:nasmotives/presentation/widget/shared/snackbars/core_global_snackbar_widget.dart';
 import 'package:flutter/material.dart';
 
 class CommonSnackbar extends StatelessWidget {

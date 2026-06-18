@@ -1,5 +1,5 @@
-import 'package:denwee/core/auth/domain/entity/third_party_register_body.dart';
-import 'package:denwee/core/user_preferences/data/model/user_preferences_dto.dart';
+import 'package:nasmotives/core/auth/domain/entity/third_party_register_body.dart';
+import 'package:nasmotives/core/user_preferences/data/model/user_preferences_dto.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'third_party_register_body_dto.g.dart';

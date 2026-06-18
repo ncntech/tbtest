@@ -1,9 +1,9 @@
-import 'package:denwee/presentation/bloc/backgrounds/active_background_cubit.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/shared/theme/text_styles.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/widget/backgrounds/background_selection_card_body_widget.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/active_background_cubit.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/theme/text_styles.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/widget/backgrounds/background_selection_card_body_widget.dart';
 import 'package:flutter/material.dart';
 
 class DefaultBackgroundSelectionCard extends StatelessWidget {

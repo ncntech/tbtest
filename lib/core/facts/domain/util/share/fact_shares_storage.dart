@@ -9,7 +9,7 @@ import 'package:path_provider/path_provider.dart';
 class FactSharesStorage {
   FactSharesStorage();
   
-  static const _baseDirName = 'Denwee';
+  static const _baseDirName = 'NasMotives';
   static const _shareDirName = 'shares';
 
   Directory? _dir;
@@ -29,14 +29,14 @@ class FactSharesStorage {
     
     final base = await getTemporaryDirectory();
     final path = '${base.path}/$_baseDirName/$_shareDirName';
-    final denweeDir = Directory(path);
+    final nasMotivesDir = Directory(path);
 
-    if (!await denweeDir.exists()) {
-      await denweeDir.create(recursive: true);
+    if (!await nasMotivesDir.exists()) {
+      await nasMotivesDir.create(recursive: true);
     }
 
-    _dir = denweeDir;
-    return denweeDir;
+    _dir = nasMotivesDir;
+    return nasMotivesDir;
   }
 
   Future<void> clear() async {

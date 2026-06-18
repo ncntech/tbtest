@@ -1,6 +1,6 @@
-import 'package:denwee/core/backgrounds/data/model/available_background_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/background_category_dto.dart';
-import 'package:denwee/core/backgrounds/data/model/resolved_background_asset_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/available_background_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/background_category_dto.dart';
+import 'package:nasmotives/core/backgrounds/data/model/resolved_background_asset_dto.dart';
 
 abstract class BackgroundsLocalSource {
   ///

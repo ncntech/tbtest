@@ -1,10 +1,10 @@
 import 'dart:async';
 
-import 'package:denwee/core/network/domain/entity/common_api_failure.dart';
-import 'package:denwee/core/notifications/domain/entity/push_notification.dart';
-import 'package:denwee/core/notifications/domain/repo/push_notifications_repo.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/core/network/domain/entity/common_api_failure.dart';
+import 'package:nasmotives/core/notifications/domain/entity/push_notification.dart';
+import 'package:nasmotives/core/notifications/domain/repo/push_notifications_repo.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';

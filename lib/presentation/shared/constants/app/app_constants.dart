@@ -1,7 +1,7 @@
-import 'package:denwee/core/misc/domain/entity/app_language.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/core/misc/domain/entity/theme_coloration.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/core/misc/domain/entity/app_language.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/misc/domain/entity/theme_coloration.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:timeago/timeago.dart';

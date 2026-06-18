@@ -1,9 +1,9 @@
-import 'package:denwee/core/facts/data/model/archive_list_result_dto.dart';
-import 'package:denwee/core/facts/data/model/daily_fact_dto.dart';
-import 'package:denwee/core/facts/data/model/daily_facts_bucket_dto.dart';
-import 'package:denwee/core/facts/data/model/fact_explanation_dto.dart';
-import 'package:denwee/core/facts/data/source/remote/facts_api.dart';
-import 'package:denwee/core/network/data/model/connection_exception.dart';
+import 'package:nasmotives/core/facts/data/model/archive_list_result_dto.dart';
+import 'package:nasmotives/core/facts/data/model/daily_fact_dto.dart';
+import 'package:nasmotives/core/facts/data/model/daily_facts_bucket_dto.dart';
+import 'package:nasmotives/core/facts/data/model/fact_explanation_dto.dart';
+import 'package:nasmotives/core/facts/data/source/remote/facts_api.dart';
+import 'package:nasmotives/core/network/data/model/connection_exception.dart';
 
 abstract class FactsRemoteSource {
   /// Throws:

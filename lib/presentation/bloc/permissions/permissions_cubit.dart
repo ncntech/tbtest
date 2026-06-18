@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:denwee/core/permissions/domain/repo/app_permission.dart';
-import 'package:denwee/core/permissions/domain/entity/app_permission_status.dart';
+import 'package:nasmotives/core/permissions/domain/repo/app_permission.dart';
+import 'package:nasmotives/core/permissions/domain/entity/app_permission_status.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

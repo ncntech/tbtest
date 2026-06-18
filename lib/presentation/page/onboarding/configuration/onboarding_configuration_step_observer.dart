@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/page/onboarding/configuration/onboarding_configuration_step.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/onboarding_configuration_step.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingConfigurationStepObserver extends NavigatorObserver {

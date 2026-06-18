@@ -1,33 +1,33 @@
 <h1 align="center">
   <br>
-  <a href="https://www.denwee.com">
-    <img src="./res/app_icon_preview.webp" alt="Denwee: Daily Trivia" width="200">
+  <a href="https://nastechai.com/nasmotives">
+    <img src="./assets/icons/app_icon.png" alt="NasMotives" width="160">
   </a>
   <br>
-  Denwee: Daily Trivia
+  NasMotives: AI Chat & Motivational Facts
   <br>
 </h1>
 
 <h4 align="center">Discover short, easy-to-understand, memorable facts every day!</h4>
 
 <p align="center">
-  <a href="https://apps.apple.com/ua/app/denwee/id6756196669">
+  <a href="https://nastechai.com/nasmotives">
     <img src="./res/download_on_app_store.svg" alt="Download on the App Store" height="45" width="120">
   </a>
-  <a href="https://play.google.com/store/apps/details?id=app.denwee.factlyapp">
+  <a href="https://nastechai.com/nasmotives">
     <img src="./res/get_on_google_play.svg" alt="Get it on Google Play" height="45" width="132">
   </a>
 </p>
 
 
 <p align="center">
-  <a href="https://www.denwee.com">
+  <a href="https://nastechai.com/nasmotives">
     <img src="./res/mockup.webp" alt="Mockup">
   </a>
 </p>
 
 
-> Denwee is an open-source mobile application built with Flutter. It delivers personalized daily facts based on user-selected interests and supports push notifications, localization, and a modular, scalable architecture inspired by SOLID principles.
+> NasMotives is an open-source mobile application built with Flutter. It delivers personalized daily facts based on user-selected interests and supports push notifications, localization, and a modular, scalable architecture inspired by SOLID principles.
 
 
 
@@ -38,7 +38,7 @@
 
 Click to watch full app onboarding (30s):
 
-[![Onboarding Preview](res/onboarding_preview.gif)](https://www.denwee.com/media/onboarding.mp4)
+[![Onboarding Preview](res/onboarding_preview.gif)](https://nastechai.com/nasmotives/media/onboarding.mp4)
 
 
 
@@ -251,7 +251,7 @@ flutter run --flavor prod -t lib/main_prod.dart
 
 ## 🤝 How To Contribute
 
-Denwee projects are crafted by a solo enthusiastic developer across Mobile, Web, and Backend technologies. Your contributions, no matter how big or small, are always welcome! Here’s how you can help:
+NasMotives is crafted by a solo enthusiastic developer across Mobile, Web, and Backend technologies. Your contributions, no matter how big or small, are always welcome! Here’s how you can help:
 
 * **Open PR's** – fix bugs, add features, or improve existing code.
 * **Submit Issues** – report bugs, request features, or suggest improvements.
@@ -263,7 +263,7 @@ Denwee projects are crafted by a solo enthusiastic developer across Mobile, Web,
 
 ## 🌐 You May Also Like
 
-Explore the **Denwee App landing page**, built with Flutter Web. This simple landing page is also open-source 🔥 [Check it out](https://github.com/denweeLabs/factlyapp-landing)
+Explore the **NasMotives landing page**, built with Flutter Web. This simple landing page is also open-source 🔥 [Check it out](https://github.com/ncntech/tbtest)
 
 
 
@@ -272,7 +272,7 @@ Explore the **Denwee App landing page**, built with Flutter Web. This simple lan
 
 ## 🏆 Credits
 
-Some design elements and animations were inspired by [Reflectly App](https://reflectlyapp.com), adapted and implemented originally for Denwee. Definitely check out their awesome product!
+Some design elements and animations were inspired by [Reflectly App](https://reflectlyapp.com), adapted and implemented originally for NasMotives. Definitely check out their awesome product!
 
 
 
@@ -282,9 +282,9 @@ Some design elements and animations were inspired by [Reflectly App](https://ref
 ## ❤️ Support
 
 If this project helped you, a quick review on the App Store or Google Play would really mean a lot!
-For any questions or support, please reach out to support@denwee.com 🫶
+For any questions or support, please reach out to nastechassist@gmail.com 🫶
 
-<a href="https://buymeacoffee.com/denweelabs" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+<a href="https://nastechai.com/nasmotives" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 
 

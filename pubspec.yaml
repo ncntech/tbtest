@@ -1,5 +1,5 @@
-name: denwee
-description: "Denwee mobile application"
+name: nasmotives
+description: "NasMotives - AI Chat powered by NasTech"
 
 # Prevent accidental publishing to pub.dev.
 publish_to: 'none'
@@ -9,8 +9,8 @@ version: 1.3.2+90
 
 # Env
 environment:
-  sdk: ">=3.9.2 <4.0.0"
-  flutter: ">=3.35.5"
+  sdk: ">=3.9.0 <4.0.0"
+  flutter: ">=3.44.0"
 
 dependencies:
 

@@ -1,5 +1,5 @@
-import 'package:denwee/core/facts/data/model/daily_facts_bucket_dto.dart';
-import 'package:denwee/core/facts/data/model/fact_explanation_dto.dart';
+import 'package:nasmotives/core/facts/data/model/daily_facts_bucket_dto.dart';
+import 'package:nasmotives/core/facts/data/model/fact_explanation_dto.dart';
 
 abstract class FactsLocalSource {
   ///

@@ -1,6 +1,6 @@
-import 'package:denwee/core/facts/domain/entity/fact_explanation.dart';
-import 'package:denwee/core/facts/domain/repo/fact_explanations_repo.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/facts/domain/entity/fact_explanation.dart';
+import 'package:nasmotives/core/facts/domain/repo/fact_explanations_repo.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:dartz/dartz.dart';
 import 'package:injectable/injectable.dart';
 import 'package:utils/utils.dart';

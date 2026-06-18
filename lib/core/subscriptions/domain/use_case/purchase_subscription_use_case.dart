@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/analytics/domain/repo/analytics_repo.dart';
-import 'package:denwee/core/subscriptions/domain/entity/premium_packages.dart';
-import 'package:denwee/core/subscriptions/domain/entity/subscriptions_failure.dart';
-import 'package:denwee/core/subscriptions/domain/repo/subscriptions_repo.dart';
+import 'package:nasmotives/core/analytics/domain/repo/analytics_repo.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/premium_packages.dart';
+import 'package:nasmotives/core/subscriptions/domain/entity/subscriptions_failure.dart';
+import 'package:nasmotives/core/subscriptions/domain/repo/subscriptions_repo.dart';
 import 'package:injectable/injectable.dart';
 
 @LazySingleton()

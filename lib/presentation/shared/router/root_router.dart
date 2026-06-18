@@ -1,38 +1,39 @@
 // ignore_for_file: prefer_function_declarations_over_variables
 
-import 'package:denwee/core/backgrounds/domain/entity/available_background.dart';
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/core/misc/domain/restorable_states/custom_serializer.dart';
-import 'package:denwee/presentation/shared/router/page_routes_builders/circular_reveal_page_route_builder.dart';
-import 'package:denwee/presentation/shared/router/page_routes_builders/cross_fade_page_route_builder.dart';
-import 'package:denwee/presentation/shared/router/page_routes_builders/fade_slideup_page_route_builder.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/di/di.dart';
-import 'package:denwee/presentation/page/available_backgrounds/available_backgrounds_page.dart';
-import 'package:denwee/presentation/page/background_edit/background_edit_page.dart';
-import 'package:denwee/presentation/bloc/backgrounds/background_edit_cubit.dart';
-import 'package:denwee/presentation/page/account/change_password/change_password_page.dart';
-import 'package:denwee/core/auth/domain/entity/authentication_action_result.dart';
-import 'package:denwee/presentation/page/authentication/args/authentication_page_args.dart';
-import 'package:denwee/presentation/page/authentication/authentication_page.dart';
-import 'package:denwee/presentation/bloc/auth/authentication_page_cubit.dart';
-import 'package:denwee/presentation/bloc/auth/login_cubit.dart';
-import 'package:denwee/presentation/bloc/auth/register_cubit.dart';
-import 'package:denwee/presentation/page/reset_password/reset_password_page.dart';
-import 'package:denwee/presentation/page/reset_password/reset_password_page_args.dart';
-import 'package:denwee/presentation/bloc/change_password/change_password_cubit.dart';
-import 'package:denwee/presentation/page/account/account_base_page.dart';
-import 'package:denwee/presentation/page/fact_details/args/fact_details_page_args.dart';
-import 'package:denwee/presentation/bloc/facts/fact_explanation_cubit.dart';
-import 'package:denwee/presentation/page/fact_details/fact_details_page.dart';
-import 'package:denwee/presentation/page/home/home_page.dart';
-import 'package:denwee/presentation/bloc/onboarding/onboarding_configuration_cubit.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/onboarding_configuration_page.dart';
-import 'package:denwee/presentation/bloc/onboarding/select_interests_cubit.dart';
-import 'package:denwee/presentation/page/onboarding/configuration/select_interests/select_interests_page.dart';
-import 'package:denwee/presentation/bloc/onboarding/select_notification_time_cubit.dart';
-import 'package:denwee/presentation/page/onboarding/welcome/welcome_page.dart';
-import 'package:denwee/presentation/page/premium_paywall/premium_paywall_page.dart';
+import 'package:nasmotives/core/backgrounds/domain/entity/available_background.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/core/misc/domain/restorable_states/custom_serializer.dart';
+import 'package:nasmotives/presentation/page/chat/chat_page.dart';
+import 'package:nasmotives/presentation/shared/router/page_routes_builders/circular_reveal_page_route_builder.dart';
+import 'package:nasmotives/presentation/shared/router/page_routes_builders/cross_fade_page_route_builder.dart';
+import 'package:nasmotives/presentation/shared/router/page_routes_builders/fade_slideup_page_route_builder.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/di/di.dart';
+import 'package:nasmotives/presentation/page/available_backgrounds/available_backgrounds_page.dart';
+import 'package:nasmotives/presentation/page/background_edit/background_edit_page.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/background_edit_cubit.dart';
+import 'package:nasmotives/presentation/page/account/change_password/change_password_page.dart';
+import 'package:nasmotives/core/auth/domain/entity/authentication_action_result.dart';
+import 'package:nasmotives/presentation/page/authentication/args/authentication_page_args.dart';
+import 'package:nasmotives/presentation/page/authentication/authentication_page.dart';
+import 'package:nasmotives/presentation/bloc/auth/authentication_page_cubit.dart';
+import 'package:nasmotives/presentation/bloc/auth/login_cubit.dart';
+import 'package:nasmotives/presentation/bloc/auth/register_cubit.dart';
+import 'package:nasmotives/presentation/page/reset_password/reset_password_page.dart';
+import 'package:nasmotives/presentation/page/reset_password/reset_password_page_args.dart';
+import 'package:nasmotives/presentation/bloc/change_password/change_password_cubit.dart';
+import 'package:nasmotives/presentation/page/account/account_base_page.dart';
+import 'package:nasmotives/presentation/page/fact_details/args/fact_details_page_args.dart';
+import 'package:nasmotives/presentation/bloc/facts/fact_explanation_cubit.dart';
+import 'package:nasmotives/presentation/page/fact_details/fact_details_page.dart';
+import 'package:nasmotives/presentation/page/home/home_page.dart';
+import 'package:nasmotives/presentation/bloc/onboarding/onboarding_configuration_cubit.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/onboarding_configuration_page.dart';
+import 'package:nasmotives/presentation/bloc/onboarding/select_interests_cubit.dart';
+import 'package:nasmotives/presentation/page/onboarding/configuration/select_interests/select_interests_page.dart';
+import 'package:nasmotives/presentation/bloc/onboarding/select_notification_time_cubit.dart';
+import 'package:nasmotives/presentation/page/onboarding/welcome/welcome_page.dart';
+import 'package:nasmotives/presentation/page/premium_paywall/premium_paywall_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
@@ -60,6 +61,7 @@ class Routes {
   static const premiumPaywall = PremiumPaywallPage.routeName;
   static const availableBackgrounds = AvailableBackgroundsPage.routeName;
   static const backgroundEdit = BackgroundEditPage.routeName;
+  static const chat = ChatPage.routeName;
 }
 
 final RouteFactory rootRouteFactory = (RouteSettings settings) {
@@ -203,6 +205,12 @@ final RouteFactory rootRouteFactory = (RouteSettings settings) {
         builder: (_) => popToHome == true
             ? const AvailableBackgroundsPage(popToHome: true)
             : const AvailableBackgroundsPage(),
+      );
+
+    case Routes.chat:
+      return FadeSlideupPageRouteBuilder<void>(
+        settings: settings,
+        builder: (_) => const ChatPage(),
       );
 
     default:

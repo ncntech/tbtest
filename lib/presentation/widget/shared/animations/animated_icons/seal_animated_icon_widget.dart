@@ -1,6 +1,6 @@
 import 'package:animate_do/animate_do.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/widget/shared/animations/lottie_animation_widget.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/lottie_animation_widget.dart';
 import 'package:flutter/material.dart';
 
 class SealAnimatedIcon extends StatefulWidget {

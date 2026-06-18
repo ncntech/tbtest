@@ -1,10 +1,10 @@
-import 'package:denwee/core/auth/domain/entity/email.dart';
-import 'package:denwee/core/auth/domain/entity/login_result.dart';
-import 'package:denwee/core/auth/domain/entity/password.dart';
-import 'package:denwee/core/auth/domain/entity/change_password_failure.dart';
-import 'package:denwee/core/auth/domain/entity/login_failure.dart';
-import 'package:denwee/core/auth/domain/repo/auth_repo.dart';
-import 'package:denwee/core/auth/domain/use_case/login_use_case.dart';
+import 'package:nasmotives/core/auth/domain/entity/email.dart';
+import 'package:nasmotives/core/auth/domain/entity/login_result.dart';
+import 'package:nasmotives/core/auth/domain/entity/password.dart';
+import 'package:nasmotives/core/auth/domain/entity/change_password_failure.dart';
+import 'package:nasmotives/core/auth/domain/entity/login_failure.dart';
+import 'package:nasmotives/core/auth/domain/repo/auth_repo.dart';
+import 'package:nasmotives/core/auth/domain/use_case/login_use_case.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:dartz/dartz.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';

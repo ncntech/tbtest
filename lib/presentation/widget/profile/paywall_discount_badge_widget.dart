@@ -1,4 +1,4 @@
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

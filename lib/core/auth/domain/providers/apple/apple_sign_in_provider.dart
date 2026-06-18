@@ -3,7 +3,7 @@
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:denwee/core/auth/domain/providers/apple/apple_sign_in_provider_result.dart';
+import 'package:nasmotives/core/auth/domain/providers/apple/apple_sign_in_provider_result.dart';
 import 'package:injectable/injectable.dart';
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 import 'package:crypto/crypto.dart';

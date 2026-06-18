@@ -1,6 +1,6 @@
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/widget/onboarding/selected_interest_card_widget.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/widget/onboarding/selected_interest_card_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

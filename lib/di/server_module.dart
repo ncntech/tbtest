@@ -1,9 +1,9 @@
 // ignore_for_file: constant_identifier_names
 
-import 'package:denwee/core/auth/domain/repo/access_token_repo.dart';
-import 'package:denwee/core/network/data/repo/request_executor_impl.dart';
-import 'package:denwee/core/network/domain/repo/request_executor.dart';
-import 'package:denwee/di/env.dart';
+import 'package:nasmotives/core/auth/domain/repo/access_token_repo.dart';
+import 'package:nasmotives/core/network/data/repo/request_executor_impl.dart';
+import 'package:nasmotives/core/network/domain/repo/request_executor.dart';
+import 'package:nasmotives/di/env.dart';
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 

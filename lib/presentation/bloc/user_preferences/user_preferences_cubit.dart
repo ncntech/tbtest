@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/presentation/bloc/auth/auth_cubit.dart';
-import 'package:denwee/core/user_preferences/domain/entity/user_preferences.dart';
-import 'package:denwee/core/user_preferences/domain/entity/preferences_failure.dart';
-import 'package:denwee/core/user_preferences/domain/repo/user_preferences_repo.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/presentation/bloc/auth/auth_cubit.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/user_preferences.dart';
+import 'package:nasmotives/core/user_preferences/domain/entity/preferences_failure.dart';
+import 'package:nasmotives/core/user_preferences/domain/repo/user_preferences_repo.dart';
 import 'package:dartz/dartz.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

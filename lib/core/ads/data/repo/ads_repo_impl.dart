@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:dartz/dartz.dart';
-import 'package:denwee/core/ads/domain/entity/app_ad_failure.dart';
-import 'package:denwee/core/ads/domain/repo/ads_repo.dart';
-import 'package:denwee/core/ads/domain/repo/app_ad.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
-import 'package:denwee/db/daos/ad_views_dao.dart';
+import 'package:nasmotives/core/ads/domain/entity/app_ad_failure.dart';
+import 'package:nasmotives/core/ads/domain/repo/ads_repo.dart';
+import 'package:nasmotives/core/ads/domain/repo/app_ad.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/db/daos/ad_views_dao.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';

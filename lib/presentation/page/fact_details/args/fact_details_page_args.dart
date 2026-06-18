@@ -1,5 +1,5 @@
-import 'package:denwee/core/facts/data/model/daily_fact_dto.dart';
-import 'package:denwee/core/facts/domain/entity/daily_fact.dart';
+import 'package:nasmotives/core/facts/data/model/daily_fact_dto.dart';
+import 'package:nasmotives/core/facts/domain/entity/daily_fact.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'fact_details_page_args.g.dart';

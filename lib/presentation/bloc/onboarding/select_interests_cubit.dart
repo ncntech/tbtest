@@ -1,5 +1,5 @@
-import 'package:denwee/core/facts/domain/entity/user_interest.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/core/facts/domain/entity/user_interest.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';

@@ -1,6 +1,6 @@
-import 'package:denwee/core/facts/data/model/daily_fact_dto.dart';
-import 'package:denwee/core/facts/domain/entity/archived_fact.dart';
-import 'package:denwee/core/misc/domain/entity/unique_id.dart';
+import 'package:nasmotives/core/facts/data/model/daily_fact_dto.dart';
+import 'package:nasmotives/core/facts/domain/entity/archived_fact.dart';
+import 'package:nasmotives/core/misc/domain/entity/unique_id.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'archived_fact_dto.g.dart';

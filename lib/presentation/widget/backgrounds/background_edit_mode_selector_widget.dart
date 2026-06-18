@@ -1,9 +1,9 @@
-import 'package:denwee/presentation/bloc/backgrounds/background_edit_cubit.dart';
-import 'package:denwee/presentation/shared/constants/app/app_constants.dart';
-import 'package:denwee/presentation/shared/theme/app_theme.dart';
-import 'package:denwee/presentation/widget/shared/animations/constants/common_animation_values.dart';
-import 'package:denwee/presentation/widget/shared/animations/tap_animations/bounce_tap_animation.dart';
-import 'package:denwee/presentation/widget/shared/buttons/icon_widget.dart';
+import 'package:nasmotives/presentation/bloc/backgrounds/background_edit_cubit.dart';
+import 'package:nasmotives/presentation/shared/constants/app/app_constants.dart';
+import 'package:nasmotives/presentation/shared/theme/app_theme.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/constants/common_animation_values.dart';
+import 'package:nasmotives/presentation/widget/shared/animations/tap_animations/bounce_tap_animation.dart';
+import 'package:nasmotives/presentation/widget/shared/buttons/icon_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
