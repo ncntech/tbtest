@@ -28,6 +28,20 @@ jobs:
       - name: Get dependencies
         run: flutter pub get
 
+      - name: Generate localization files
+        run: |
+          mkdir -p lib/presentation/shared/localization
+          dart run easy_localization:generate \
+            -S assets/translations \
+            -f codegen_loader \
+            -o codegen_loader.g.dart \
+            --output-dir lib/presentation/shared/localization
+          dart run easy_localization:generate \
+            -S assets/translations \
+            -f keys \
+            -o locale_keys.g.dart \
+            --output-dir lib/presentation/shared/localization
+
       - name: Run build_runner
         run: dart run build_runner build --delete-conflicting-outputs
 
